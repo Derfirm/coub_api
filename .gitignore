@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.coverage
+.venv
+.mypy_cache/
+virtualenv
+MANIFEST
+build/
+dist/
+.cache/
+*.egg-info
+poetry.lock
+.idea/
+# prevent commit any materials
+*.png
+*.jpg
+*.mp3
+*.mp4

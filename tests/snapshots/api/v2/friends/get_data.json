@@ -1,0 +1,188 @@
+{
+  "page": 1,
+  "total_pages": 3,
+  "total_friends": 22,
+  "per_page": 10,
+  "friends": [
+    {
+      "id": 2312319501,
+      "permalink": "zlosnij.dani",
+      "title": "Aleksey Brek",
+      "avatar_versions": {
+        "template": "https://coubsecure-s.akamaihd.net/get/b114/p/channel/cw_avatar/3ec1ea43f27/4bbaf27425760526b869c/%{version}_1474706962_d5khvw_att-url-download.jpg",
+        "versions": [
+          "profile_pic_new",
+          "profile_pic_new_2x",
+          "small",
+          "small_2x",
+          "ios_large"
+        ]
+      },
+      "followers_count": 6,
+      "following_count": 9,
+      "i_follow_him": false
+    },
+    {
+      "id": 2312319505,
+      "permalink": "alex.lazurovich",
+      "title": "Alex Lazurovich",
+      "avatar_versions": {
+        "template": "https://coubsecure-s.akamaihd.net/get/b132/p/channel/cw_avatar/2193dedcf95/b490047f54fea8b16162e/%{version}_1474697501_1s4nyh7_att-url-download.jpg",
+        "versions": [
+          "profile_pic_new",
+          "profile_pic_new_2x",
+          "small",
+          "small_2x",
+          "ios_large"
+        ]
+      },
+      "followers_count": 6,
+      "following_count": 12,
+      "i_follow_him": false
+    },
+    {
+      "id": 2312319506,
+      "permalink": "alexander.karazhan",
+      "title": "Alexander Karazhan",
+      "avatar_versions": {
+        "template": "https://coubsecure-s.akamaihd.net/get/b126/p/channel/cw_avatar/355cc03c6aa/15489d2266045b25906a5/%{version}_1474713634_100002496714698.jpg",
+        "versions": [
+          "profile_pic_new",
+          "profile_pic_new_2x",
+          "small",
+          "small_2x",
+          "ios_large"
+        ]
+      },
+      "followers_count": 1,
+      "following_count": 4,
+      "i_follow_him": false
+    },
+    {
+      "id": 2312319512,
+      "permalink": "43c2b52c296cf2522309bace9cae520c",
+      "title": "Alexander Nevdashenko",
+      "avatar_versions": {
+        "template": "https://coubsecure-s.akamaihd.net/get/b114/p/channel/cw_avatar/fdce1a8462f/daf4428f6e231d1935a9e/%{version}_1474488613_1f7oldt_att-url-download.jpg",
+        "versions": [
+          "profile_pic_new",
+          "profile_pic_new_2x",
+          "small",
+          "small_2x",
+          "ios_large"
+        ]
+      },
+      "followers_count": 0,
+      "following_count": 4,
+      "i_follow_him": false
+    },
+    {
+      "id": 2331407478,
+      "permalink": "54948a26f3776513fe2f2d571db9db80",
+      "title": "Andrew Solodukhin",
+      "avatar_versions": {
+        "template": "https://coubsecure-s.akamaihd.net/get/b120/p/channel/cw_avatar/4b73f6c13a7/423c8e66985af3e472708/%{version}_1474487286_1fnii6w_att-url-download.jpg",
+        "versions": [
+          "profile_pic_new",
+          "profile_pic_new_2x",
+          "small",
+          "small_2x",
+          "ios_large"
+        ]
+      },
+      "followers_count": 3,
+      "following_count": 4,
+      "i_follow_him": false
+    },
+    {
+      "id": 2312319507,
+      "permalink": "f633d5c9ed7d73f3de8a87b6361126c7",
+      "title": "Igor Fedosov",
+      "avatar_versions": {
+        "template": "https://coubsecure-s.akamaihd.net/get/b125/p/channel/cw_avatar/af3789baa3f/97aaf805c6bd0cb127148/%{version}_1474488767_1h1jxhc_att-url-download.jpg",
+        "versions": [
+          "profile_pic_new",
+          "profile_pic_new_2x",
+          "small",
+          "small_2x",
+          "ios_large"
+        ]
+      },
+      "followers_count": 0,
+      "following_count": 4,
+      "i_follow_him": false
+    },
+    {
+      "id": 2500452286,
+      "permalink": "759004e213adb7313a689995f0174b54",
+      "title": "Katherine Krivosheina",
+      "avatar_versions": {
+        "template": "https://coubsecure-s.akamaihd.net/get/b20/p/channel/cw_avatar/490e6a57446/6a800a097ca0a2f3b1554/%{version}_1474491061_1webzb4_att-url-download.jpg",
+        "versions": [
+          "profile_pic_new",
+          "profile_pic_new_2x",
+          "small",
+          "small_2x",
+          "ios_large"
+        ]
+      },
+      "followers_count": 18,
+      "following_count": 9,
+      "i_follow_him": false
+    },
+    {
+      "id": 2500452289,
+      "permalink": "f2e23be0a43385b6eaa753f81428edde",
+      "title": "Kirill Naumov",
+      "avatar_versions": {
+        "template": "https://coubsecure-s.akamaihd.net/get/b119/p/channel/cw_avatar/ec6c91b9fdc/e5616f714ade841b16fe6/%{version}_1474491673_eh7rjx_att-url-download.jpg",
+        "versions": [
+          "profile_pic_new",
+          "profile_pic_new_2x",
+          "small",
+          "small_2x",
+          "ios_large"
+        ]
+      },
+      "followers_count": 0,
+      "following_count": 4,
+      "i_follow_him": false
+    },
+    {
+      "id": 2349163615,
+      "permalink": "max.shifrin.7",
+      "title": "Max Shifrin",
+      "avatar_versions": {
+        "template": "https://coubsecure-s.akamaihd.net/get/b96/p/channel/cw_avatar/276a7688cf5/4cfeadc4a1bcec3152f3c/%{version}_1474659887_1tw6hai_att-url-download.jpg",
+        "versions": [
+          "profile_pic_new",
+          "profile_pic_new_2x",
+          "small",
+          "small_2x",
+          "ios_large"
+        ]
+      },
+      "followers_count": 2,
+      "following_count": 4,
+      "i_follow_him": false
+    },
+    {
+      "id": 2312319498,
+      "permalink": "radioperson",
+      "title": "Mia Lomberts",
+      "avatar_versions": {
+        "template": "https://coubsecure-s.akamaihd.net/get/b125/p/channel/cw_avatar/6eb88e8a60f/ee6ae467a0ec3a13e20ee/%{version}_1474524607_17xzo1w_att-url-download.jpg",
+        "versions": [
+          "profile_pic_new",
+          "profile_pic_new_2x",
+          "small",
+          "small_2x",
+          "ios_large"
+        ]
+      },
+      "followers_count": 1,
+      "following_count": 7,
+      "i_follow_him": false
+    }
+  ]
+}

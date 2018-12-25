@@ -1,0 +1,31 @@
+{
+  "page": 1,
+  "total_pages": 1,
+  "channels": [
+    {
+      "id": 4780141,
+      "permalink": "ce341f5f7bf33dc305b6500b6dbd9593",
+      "title": "Gildedhero",
+      "i_follow_him": false,
+      "follows_by_users_channels": [],
+      "followers_count": 2,
+      "following_count": 35,
+      "avatar_versions": {
+        "template": "https://coubsecure-s.akamaihd.net/get/b192/p/channel/cw_avatar/e4490ae7e9a/4607f79f42ba3a4429829/%{version}_1536359620_cropped.jpeg",
+        "versions": [
+          "medium",
+          "medium_2x",
+          "profile_pic",
+          "profile_pic_new",
+          "profile_pic_new_2x",
+          "tiny",
+          "tiny_2x",
+          "small",
+          "small_2x",
+          "ios_large",
+          "ios_small"
+        ]
+      }
+    }
+  ]
+}

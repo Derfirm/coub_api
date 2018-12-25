@@ -1,0 +1,217 @@
+{
+  "id": 338485,
+  "permalink": "71fcc0ac68f3ca5b57fba039f1af80c9",
+  "name": "Андрей Гриневич",
+  "sex": "male",
+  "city": null,
+  "current_channel": {
+    "id": 313669,
+    "permalink": "71fcc0ac68f3ca5b57fba039f1af80c9",
+    "title": "Andrey Grinevich",
+    "description": null,
+    "followers_count": 5,
+    "following_count": 16,
+    "avatar_versions": {
+      "template": "https://coubsecure-s.akamaihd.net/get/b158/p/channel/cw_avatar/cdc0bb1596e/586a8108000d9c3eee3bf/%{version}_1544363931_vlcsnap-2018-12-08-12h02m14s694.png",
+      "versions": [
+        "medium",
+        "medium_2x",
+        "profile_pic",
+        "profile_pic_new",
+        "profile_pic_new_2x",
+        "tiny",
+        "tiny_2x",
+        "small",
+        "small_2x",
+        "ios_large",
+        "ios_small"
+      ]
+    }
+  },
+  "created_at": "2014-01-01T00:27:54Z",
+  "updated_at": "2018-12-10T18:15:05Z",
+  "has_linked_vine_accounts": false,
+  "likes_count": 130,
+  "favourites_count": 0,
+  "api_token": "a1b417569b80ec5ba2b480fee97cdf765afbe15908d3575887042c83e4a859af91bab3c0abd8f98b4afce0ae228d675f882dd654ffc3d8f4303c18fd6b578c13",
+  "channels": [
+    {
+      "simple_coubs_count": 6,
+      "id": 313669,
+      "user_id": 338485,
+      "crown": null,
+      "permalink": "71fcc0ac68f3ca5b57fba039f1af80c9",
+      "title": "Andrey Grinevich",
+      "description": null,
+      "contacts": {},
+      "created_at": "2014-07-10T15:19:49Z",
+      "updated_at": "2018-12-09T20:44:27Z",
+      "avatar_versions": {
+        "template": "https://coubsecure-s.akamaihd.net/get/b158/p/channel/cw_avatar/cdc0bb1596e/586a8108000d9c3eee3bf/%{version}_1544363931_vlcsnap-2018-12-08-12h02m14s694.png",
+        "versions": [
+          "medium",
+          "medium_2x",
+          "profile_pic",
+          "profile_pic_new",
+          "profile_pic_new_2x",
+          "tiny",
+          "tiny_2x",
+          "small",
+          "small_2x",
+          "ios_large",
+          "ios_small"
+        ]
+      },
+      "followers_count": 5,
+      "following_count": 16,
+      "recoubs_count": 4,
+      "likes_count": 130,
+      "stories_count": 0,
+      "authentications": [
+        {
+          "id": 328098,
+          "channel_id": 313669,
+          "provider": "facebook",
+          "username_from_provider": "Андрей Гриневич"
+        },
+        {
+          "id": 3786622,
+          "channel_id": 313669,
+          "provider": "google",
+          "username_from_provider": "Coub X"
+        }
+      ],
+      "background_coub": null,
+      "background_image": null,
+      "timeline_banner_image": null,
+      "meta": {
+        "description": null,
+        "homepage": null,
+        "facebook": "100001866557039",
+        "google": "101173196418221616610",
+        "tumblr": null,
+        "youtube": null,
+        "vimeo": null
+      },
+      "views_count": 1610,
+      "hide_owner": false
+    },
+    {
+      "simple_coubs_count": 0,
+      "id": 5044362,
+      "user_id": 338485,
+      "crown": null,
+      "permalink": "baroaaaa",
+      "title": "foo",
+      "description": null,
+      "contacts": {},
+      "created_at": "2018-12-09T13:35:28Z",
+      "updated_at": "2018-12-09T20:44:27Z",
+      "avatar_versions": {
+        "template": "https://coubsecureassets-a.akamaihd.net/assets/default-avatars/267-7f4d95661cd5ec0181a11c0d74499f6f46d93a702842c87cf0f40617f7f9c16c.png"
+      },
+      "followers_count": 0,
+      "following_count": 11,
+      "recoubs_count": 0,
+      "likes_count": 0,
+      "stories_count": 0,
+      "authentications": [],
+      "background_coub": null,
+      "background_image": null,
+      "timeline_banner_image": null,
+      "meta": {
+        "description": null,
+        "homepage": null,
+        "tumblr": null,
+        "youtube": null,
+        "vimeo": null
+      },
+      "views_count": 0,
+      "hide_owner": false
+    },
+    {
+      "simple_coubs_count": 0,
+      "id": 5044404,
+      "user_id": -1,
+      "crown": false,
+      "permalink": "testpleaseignore",
+      "title": "test channel please ignore",
+      "description": null,
+      "contacts": {
+        "homepage": "",
+        "tumblr": "",
+        "youtube": "",
+        "vimeo": ""
+      },
+      "created_at": "2018-12-09T13:51:02Z",
+      "updated_at": "2018-12-09T20:44:27Z",
+      "avatar_versions": {
+        "template": "https://coubsecureassets-a.akamaihd.net/assets/default-avatars/309-469ea82290f97ef8a1be87f34a701e58c46abd43d49c105705e0a53eebeae0fa.png"
+      },
+      "followers_count": 0,
+      "following_count": 11,
+      "recoubs_count": 0,
+      "likes_count": 0,
+      "stories_count": 0,
+      "authentications": [],
+      "background_coub": null,
+      "background_image": null,
+      "timeline_banner_image": null,
+      "meta": {
+        "description": null,
+        "homepage": "",
+        "tumblr": null,
+        "youtube": "",
+        "vimeo": ""
+      },
+      "views_count": 0,
+      "hide_owner": true
+    },
+    {
+      "simple_coubs_count": 0,
+      "id": 5044410,
+      "user_id": 338485,
+      "crown": null,
+      "permalink": "testpleaseignore1",
+      "title": "test channel please ignore",
+      "description": null,
+      "contacts": {},
+      "created_at": "2018-12-09T13:54:25Z",
+      "updated_at": "2018-12-09T20:44:27Z",
+      "avatar_versions": {
+        "template": "https://coubsecure-s.akamaihd.net/get/b98/p/channel/cw_avatar/d9a20a05f3f/fb7b6c0169100c4ce3815/%{version}_1544366015_vlcsnap-2018-12-07-21h14m20s009.png",
+        "versions": [
+          "medium",
+          "medium_2x",
+          "profile_pic",
+          "profile_pic_new",
+          "profile_pic_new_2x",
+          "tiny",
+          "tiny_2x",
+          "small",
+          "small_2x",
+          "ios_large",
+          "ios_small"
+        ]
+      },
+      "followers_count": 0,
+      "following_count": 11,
+      "recoubs_count": 0,
+      "likes_count": 0,
+      "stories_count": 0,
+      "authentications": [],
+      "background_coub": null,
+      "background_image": null,
+      "timeline_banner_image": null,
+      "meta": {
+        "description": null,
+        "homepage": null,
+        "tumblr": null,
+        "youtube": null,
+        "vimeo": null
+      },
+      "views_count": 0,
+      "hide_owner": false
+    }
+  ]
+}

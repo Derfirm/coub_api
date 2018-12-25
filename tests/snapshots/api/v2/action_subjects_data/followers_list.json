@@ -1,0 +1,149 @@
+{
+  "page": 1,
+  "total_pages": 1,
+  "channels": [
+    {
+      "id": 4051223,
+      "permalink": "77a192cadad72c1747571521fa038eeb",
+      "title": "Mate1430",
+      "i_follow_him": false,
+      "follows_by_users_channels": [
+        313669
+      ],
+      "followers_count": 340,
+      "following_count": 408,
+      "avatar_versions": {
+        "template": "https://coubsecure-s.akamaihd.net/get/b73/p/channel/cw_avatar/275c2b7284b/1a9eb7ceeddbdc6db7d09/%{version}_1516739487_1alwj5e_117820940135991920693.jpg",
+        "versions": [
+          "medium",
+          "medium_2x",
+          "profile_pic",
+          "profile_pic_new",
+          "profile_pic_new_2x",
+          "tiny",
+          "tiny_2x",
+          "small",
+          "small_2x",
+          "ios_large",
+          "ios_small"
+        ]
+      }
+    },
+    {
+      "id": 3560811,
+      "permalink": "beautiful.world",
+      "title": "World",
+      "i_follow_him": false,
+      "follows_by_users_channels": [],
+      "followers_count": 399,
+      "following_count": 4684,
+      "avatar_versions": {
+        "template": "https://coubsecure-s.akamaihd.net/get/b97/p/channel/cw_avatar/86a627f8b2e/c5e44f723632b78327af2/%{version}_1493812276_ut5zwKNIVxI.jpg",
+        "versions": [
+          "medium",
+          "medium_2x",
+          "profile_pic",
+          "profile_pic_new",
+          "profile_pic_new_2x",
+          "tiny",
+          "tiny_2x",
+          "small",
+          "small_2x",
+          "ios_large",
+          "ios_small"
+        ]
+      }
+    },
+    {
+      "id": 557088,
+      "permalink": "vrg89rrr",
+      "title": "vrg89",
+      "i_follow_him": false,
+      "follows_by_users_channels": [],
+      "followers_count": 5,
+      "following_count": 37,
+      "avatar_versions": {
+        "template": "https://coubsecureassets-a.akamaihd.net/assets/default-avatars/318-59bdb1edadf236e93fa46a3d619d293fe06042cffaa2fbaac25978874aaaf94a.png"
+      }
+    },
+    {
+      "id": 547076,
+      "permalink": "fvdfvdsfvd",
+      "title": "Юлечка Ярошук",
+      "i_follow_him": false,
+      "follows_by_users_channels": [
+        313669
+      ],
+      "followers_count": 4,
+      "following_count": 18,
+      "avatar_versions": {
+        "template": "https://coubsecure-s.akamaihd.net/get/b85/p/channel/cw_avatar/6ade43129ac/9318be5be6f5a1850a362/%{version}_1474514310_1yaz6rc_att-url-download.jpg",
+        "versions": [
+          "medium",
+          "medium_2x",
+          "profile_pic",
+          "profile_pic_new",
+          "profile_pic_new_2x",
+          "tiny",
+          "tiny_2x",
+          "small",
+          "small_2x",
+          "ios_large",
+          "ios_small"
+        ]
+      }
+    },
+    {
+      "id": 536006,
+      "permalink": "zelenii.zmey",
+      "title": "Polly Lushchynskaya",
+      "i_follow_him": false,
+      "follows_by_users_channels": [],
+      "followers_count": 2,
+      "following_count": 29,
+      "avatar_versions": {
+        "template": "https://coubsecure-s.akamaihd.net/get/b20/p/channel/cw_avatar/b1b083bd523/c2b38a05e3955914d7b3b/%{version}_1474513482_tkf472_att-url-download.jpg",
+        "versions": [
+          "medium",
+          "medium_2x",
+          "profile_pic",
+          "profile_pic_new",
+          "profile_pic_new_2x",
+          "tiny",
+          "tiny_2x",
+          "small",
+          "small_2x",
+          "ios_large",
+          "ios_small"
+        ]
+      }
+    },
+    {
+      "id": 201984,
+      "permalink": "81ff86bd7258eb9e0865b58d862feb99",
+      "title": "Alexei Zhuk",
+      "i_follow_him": false,
+      "follows_by_users_channels": [
+        313669
+      ],
+      "followers_count": 3,
+      "following_count": 17,
+      "avatar_versions": {
+        "template": "https://coubsecure-s.akamaihd.net/get/b125/p/channel/cw_avatar/68431b6abc6/e4b2289c3ff905cbd8d51/%{version}_1474492452_tgpweb_att-url-download.jpg",
+        "versions": [
+          "medium",
+          "medium_2x",
+          "profile_pic",
+          "profile_pic_new",
+          "profile_pic_new_2x",
+          "tiny",
+          "tiny_2x",
+          "small",
+          "small_2x",
+          "ios_large",
+          "ios_small"
+        ]
+      }
+    }
+  ]
+}

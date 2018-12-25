@@ -1,0 +1,153 @@
+{
+  "recoub": false,
+  "like": false,
+  "in_my_best2015": false,
+  "id": 95639280,
+  "type": "Coub::Simple",
+  "permalink": "1kj8z2",
+  "title": "Updated Awesome CAT",
+  "visibility_type": "private",
+  "original_visibility_type": "private",
+  "channel_id": 313669,
+  "created_at": "2018-12-25T13:14:54Z",
+  "updated_at": "2018-12-25T14:11:31Z",
+  "is_done": true,
+  "views_count": 1,
+  "cotd": null,
+  "cotd_at": null,
+  "original_sound": false,
+  "has_sound": false,
+  "recoub_to": null,
+  "file_versions": {
+    "html5": {
+      "video": {
+        "med": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b207/p/coub/simple/cw_file/9356ae082d4/8b444df448880f0ce225f/muted_mp4_med_size_1545744713_muted_med.mp4",
+          "size": 195643
+        }
+      },
+      "audio": {
+        "high": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b207/p/coub/simple/cw_looped_audio/3d9e0b8266c/a10630a1f188b68650e53/high_1545744714_high.mp3",
+          "size": 3681356
+        },
+        "med": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b207/p/coub/simple/cw_looped_audio/3d9e0b8266c/a10630a1f188b68650e53/med_1545744714_med.mp3",
+          "size": 2606354
+        }
+      }
+    },
+    "mobile": {
+      "gifv": "Ahr0Chm6lY9JB3vIC2vJDxjLlxmUywTHBwfPAgqUBMv0l2DLDc9ImJa3l3aVy291yI9ZAw1WBguVy3DFzMLSzs85mZu2ywuWodjKnc84yJq0ngrMndq4odGWzJbJztiYnwyVz2LMDL8Xntq1nZq0nZeZxZq1odfFz2LMDI5TCdq=",
+      "audio": [
+        "https://coubsecure-s.akamaihd.net/get/b207/p/coub/simple/cw_looped_audio/3d9e0b8266c/a10630a1f188b68650e53/med_m4a_1545744714_med.m4a",
+        "https://coubsecure-s.akamaihd.net/get/b207/p/coub/simple/cw_looped_audio/3d9e0b8266c/a10630a1f188b68650e53/med_1545744714_med.mp3"
+      ]
+    }
+  },
+  "audio_versions": {
+    "template": "https://coubsecure-s.akamaihd.net/get/b207/p/audio_track/cw_normalized_copy/24124521cde/8fc2104bef8827fa32cdf/mid_1545744700_normalized_1545744518_audio.mp3",
+    "versions": [
+      "mid",
+      "low"
+    ],
+    "chunks": {
+      "template": "https://coubsecure-s.akamaihd.net/get/b207/p/audio_track/cw_normalized_copy/24124521cde/8fc2104bef8827fa32cdf/mp3_%{version}_c%{chunk}_1545744700_normalized_1545744518_audio.mp3",
+      "versions": [
+        "mid",
+        "low"
+      ],
+      "chunks": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  "image_versions": {
+    "template": "https://coubsecure-s.akamaihd.net/get/b207/p/coub/simple/cw_image/7520d06a62d/8100da8cdedc897b8ee48/%{version}_1545744724_00008.jpg",
+    "versions": [
+      "micro",
+      "tiny",
+      "age_restricted",
+      "ios_large",
+      "ios_mosaic",
+      "big",
+      "med",
+      "small",
+      "pinterest"
+    ]
+  },
+  "first_frame_versions": {
+    "template": "https://coubsecure-s.akamaihd.net/get/b207/p/coub/simple/cw_timeline_pic/7bdd28878d1/eeb558dd3ce10722646b1/%{version}_1545744724_image.jpg",
+    "versions": [
+      "big",
+      "med",
+      "small",
+      "ios_large"
+    ]
+  },
+  "dimensions": {
+    "big": [
+      500,
+      282
+    ],
+    "med": [
+      500,
+      282
+    ]
+  },
+  "age_restricted": false,
+  "allow_reuse": false,
+  "banned": false,
+  "external_download": false,
+  "channel": {
+    "id": 313669,
+    "permalink": "71fcc0ac68f3ca5b57fba039f1af80c9",
+    "title": "Андрей Гриневич",
+    "i_follow_him": false,
+    "follows_by_users_channels": [],
+    "followers_count": 5,
+    "following_count": 16,
+    "avatar_versions": {
+      "template": "https://coubsecure-s.akamaihd.net/get/b158/p/channel/cw_avatar/cdc0bb1596e/586a8108000d9c3eee3bf/%{version}_1544363931_vlcsnap-2018-12-08-12h02m14s694.png",
+      "versions": [
+        "medium",
+        "medium_2x",
+        "profile_pic",
+        "profile_pic_new",
+        "profile_pic_new_2x",
+        "tiny",
+        "tiny_2x",
+        "small",
+        "small_2x",
+        "ios_large",
+        "ios_small"
+      ]
+    }
+  },
+  "percent_done": 100,
+  "tags": [
+    {
+      "id": 152,
+      "title": "run",
+      "value": "run"
+    }
+  ],
+  "categories": [],
+  "recoubs_count": 0,
+  "remixes_count": 0,
+  "likes_count": 0,
+  "raw_video_id": "",
+  "media_blocks": {
+    "uploaded_raw_videos": [],
+    "external_raw_videos": [],
+    "remixed_from_coubs": []
+  },
+  "raw_video_thumbnail_url": "",
+  "raw_video_title": "",
+  "video_block_banned": false,
+  "duration": 2.36,
+  "best2015_addable": false
+}

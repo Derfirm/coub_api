@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "coub_api"
+version = "0.1.0"
+description = "Api wrapper for coub.com"
+authors = ["Andrew Grinevich <andrew.grinevich@gmail.com>"]
+keywords = ["coub", "coub-api", "api-wrapper"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+dataclasses = {version = "^0.6.0",python = "~3.6"}
+pydantic = "^0.16.1"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^18.3-alpha.0",allows-prereleases = true}
+flake8 = "^3.6"
+pytest = "^3.0"
+pytest-cov = "^2.6"
+isort = "^4.3"
+requests-mock = "^1.5"
+yarl = "^1.2"
+mypy = "^0.650.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

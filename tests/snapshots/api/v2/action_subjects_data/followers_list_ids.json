@@ -1,0 +1,33 @@
+{
+  "page": 1,
+  "total_pages": 1,
+  "channels": [
+    {
+      "id": 4051223,
+      "permalink": "77a192cadad72c1747571521fa038eeb",
+      "title": "Mate1430",
+      "i_follow_him": false,
+      "follows_by_users_channels": [
+        313669
+      ],
+      "followers_count": 340,
+      "following_count": 408,
+      "avatar_versions": {
+        "template": "https://coubsecure-s.akamaihd.net/get/b73/p/channel/cw_avatar/275c2b7284b/1a9eb7ceeddbdc6db7d09/%{version}_1516739487_1alwj5e_117820940135991920693.jpg",
+        "versions": [
+          "medium",
+          "medium_2x",
+          "profile_pic",
+          "profile_pic_new",
+          "profile_pic_new_2x",
+          "tiny",
+          "tiny_2x",
+          "small",
+          "small_2x",
+          "ios_large",
+          "ios_small"
+        ]
+      }
+    }
+  ]
+}
