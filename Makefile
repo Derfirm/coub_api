@@ -20,8 +20,12 @@ isort:
 lint-mypy:
 	@poetry run mypy coub_api
 
+.PHONY: lint-black
+lint-black:
+	@poetry run black --diff --check .
+
 .PHONY: lint
-lint: lint-isort lint-flake8 lint-mypy
+lint: lint-isort lint-flake8 lint-black lint-mypy
 
 .PHONY: check
 check: lint test

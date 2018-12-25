@@ -1,5 +1,5 @@
 ===============================
-coub-api
+Api-wrapper for coub.com
 ===============================
 .. image:: https://travis-ci.com/Derfirm/coub_api.svg?branch=master
     :target: https://travis-ci.com/Derfirm/coub_api
@@ -8,3 +8,71 @@ coub-api
 .. image:: https://coveralls.io/repos/github/Derfirm/coub_api/badge.svg?branch=master
     :target: https://coveralls.io/github/Derfirm/coub_api?branch=master
     :alt: Coverage Status
+
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+    :target: https://github.com/ambv/black
+
+
+Key Features
+============
+- response are fully-annotated with pydantic
+- test work on snapshots from real http-answers (can easy inspect responses)
+
+Getting started
+===============
+Initiate Api client
+________
+.. code-block:: python
+
+    from coub_api import CoubApi
+
+    api = CoubApi()
+    access_token = "<your access token>"
+    api.authenticate(access_token)  # required for some authenticated requests
+
+
+Get coub details
+________________
+.. code-block:: python
+
+    coub = api.coubs.get_coub("1jf5v1")
+    print(coub.id, coub.channel_id)
+
+Create Coub
+___________
+.. code-block:: python
+
+    api.coubs.init_upload()) # {"permalink":"1jik0b","id":93927327}
+    api.coubs.upload_video(93927327, "video.mp4")
+    api.coubs.upload_audio(93927327, "audio.mp3"))
+    api.coubs.finalize_upload(93927327, title="Awesome CAT", tags=["cat", "animal"]))
+    api.coubs.get_upload_status(93927327))  # {"done": False, "percent_done": 0}
+    # wait a minute
+    api.coubs.get_upload_status(93927327))  # {"done": True, "percent_done": 100}
+
+
+
+Get weekly hot coubs
+___________
+.. code-block:: python
+
+    from coub_api.schemas.constants import Period
+    api.timeline.hot(period=Period.WEEKLY, order_by="likes_count")
+
+
+Get 5 page of random section with cars
+___________
+.. code-block:: python
+
+    from coub_api.schemas.constants import Section, Category
+
+    current_page = 1
+    max_page = 5
+    while current_page <= max_page:
+        response = api.timeline.section(section=Section.RANDOM, category=Category.CARS, per_page=30, page=current_page)
+        print(f"processing {current_page} of {max_page}")
+        for coub in response.coubs:
+            print(coub.permalink)
+        current_page += 1
+        max_page = min(max_page, response.total_pages)
+

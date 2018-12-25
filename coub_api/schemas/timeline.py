@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Optional
 
 from pydantic import BaseModel
 
@@ -11,7 +11,7 @@ class SectionTimeLineResponse(BaseModel):
     page: int
     per_page: int
     total_pages: int
-    next: float
+    next: Optional[float]
     coubs: List[BigCoub]
 
 
