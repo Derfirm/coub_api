@@ -8,6 +8,7 @@ matrix:
       sudo: true
 before_install:
   - pip install poetry
+  - pip install python-coveralls
 install:
   - poetry install
 script: poetry run make check
