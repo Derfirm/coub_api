@@ -23,6 +23,7 @@ classifiers = [
 ]
 packages = [
     { include = "coub_api" },
+    { include = "console" },
     { include = "README.rst" },
     { include = "LICENSE" },
 ]
