@@ -1,10 +1,10 @@
+import json
 from string import Template
 from typing import Optional
+from urllib import request
 from datetime import datetime
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from urllib.parse import parse_qs, urlparse, urlencode
-
-import requests
 
 HOST_NAME = "localhost"
 PORT_NUMBER = 8000
@@ -188,7 +188,10 @@ def get_token(client_id: str, client_secret: str, redirect_url: str, code: str) 
         "redirect_uri": redirect_url,
         "grant_type": "authorization_code",
     }
-    return requests.post("http://coub.com/oauth/token", params=params).json()
+    data = urlencode(params).encode()
+    req = request.Request("http://coub.com/oauth/token", data=data)
+    response = request.urlopen(req)
+    return json.loads(response.read())
 
 
 def to_bytes(value: str) -> bytes:
