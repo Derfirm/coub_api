@@ -22,6 +22,7 @@ Key Features
 ============
 - response are fully-annotated with pydantic_
 - test work on snapshots from real http-answers (can easy inspect responses)
+- own OAuth2-server
 
 .. _pydantic: https://pydantic-docs.helpmanual.io/
 
@@ -84,3 +85,18 @@ ___________
         current_page += 1
         max_page = min(max_page, response.total_pages)
 
+
+
+OAuth2-Server
+===============
+How to use:
+___________
+- Create Your Own_ application
+- Run server
+.. code-block:: RST
+
+    coub-oauth2-server
+
+- Enter Your Application Id and Secret and grant access the Coub server.
+- Copy access token and start use it!
+.. _Own: http://coub.com/dev/applications
