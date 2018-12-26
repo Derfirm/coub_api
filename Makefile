@@ -6,7 +6,7 @@ clean:
 
 .PHONY: test
 test:
-	@poetry run py.test --cov-report term-missing --cov=coub_api tests/
+	@poetry run py.test -vv --cov-report term-missing --cov=coub_api tests/
 
 .PHONY: lint-flake8
 flake8:
