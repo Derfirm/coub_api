@@ -10,6 +10,10 @@ Api-wrapper for coub.com
     :target: https://codecov.io/gh/Derfirm/coub_api
     :alt: Coverage Status
 
+.. image:: https://img.shields.io/pypi/v/coub_api.svg
+    :target: https://github.com/Derfirm/coub_api
+    :alt: pypi version
+
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
     :target: https://github.com/ambv/black
     :alt: Codestyle: Black

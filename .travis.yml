@@ -14,7 +14,6 @@ before_install:
 install:
   - poetry install
 script: poetry run make check
-after_success:
-  codecov
+after_success: codecov
 notifications:
   email: false
