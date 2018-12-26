@@ -41,6 +41,9 @@ requests-mock = "^1.5"
 yarl = "^1.2"
 mypy = "^0.650.0"
 
+[tool.poetry.scripts]
+coub-oauth2-server = "console.dummy_oauth2_server:main"
+
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
