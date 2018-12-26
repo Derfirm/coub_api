@@ -1,4 +1,4 @@
-__version__ = "0.1.1-alpha.0"
+__version__ = "0.1.2-alpha.0"
 
 from coub_api.api import CoubApi
 
