@@ -1,4 +1,4 @@
-from typing import Optional, Dict, Union
+from typing import Dict, Union, Optional
 
 from coub_api.schemas.friends import (
     FollowResponse,

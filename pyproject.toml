@@ -29,7 +29,6 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.6"
-dataclasses = {version = "^0.6.0",python = "~3.6"}
 pydantic = "^0.16.1"
 
 [tool.poetry.dev-dependencies]

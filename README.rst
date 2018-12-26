@@ -10,14 +10,20 @@ Api-wrapper for coub.com
     :target: https://codecov.io/gh/Derfirm/coub_api
     :alt: Coverage Status
 
+.. image:: https://img.shields.io/pypi/v/coub_api.svg
+    :target: https://github.com/Derfirm/coub_api
+    :alt: pypi version
+
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
     :target: https://github.com/ambv/black
     :alt: Codestyle: Black
 
 Key Features
 ============
-- response are fully-annotated with pydantic
+- response are fully-annotated with pydantic_
 - test work on snapshots from real http-answers (can easy inspect responses)
+
+.. _pydantic: https://pydantic-docs.helpmanual.io/
 
 Getting started
 ===============
@@ -58,6 +64,7 @@ ___________
 .. code-block:: python
 
     from coub_api.schemas.constants import Period
+
     api.timeline.hot(period=Period.WEEKLY, order_by="likes_count")
 
 
@@ -70,7 +77,7 @@ ___________
     current_page = 1
     max_page = 5
     while current_page <= max_page:
-        response = api.timeline.section(section=Section.RANDOM, category=Category.CARS, per_page=30, page=current_page)
+        response = api.timeline.section(section=Section.RANDOM, category=Category.CARS, page=current_page)
         print(f"processing {current_page} of {max_page}")
         for coub in response.coubs:
             print(coub.permalink)
