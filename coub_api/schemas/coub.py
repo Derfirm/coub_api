@@ -12,6 +12,10 @@ class Categories(BaseModel):
     id: int
     title: str
     permalink: Category
+    big_image_url: str
+    small_image_url: str
+    visible: bool
+    subscriptions_count: int
 
 
 class CoubTags(BaseModel):
@@ -25,6 +29,7 @@ class Params(BaseModel):
     size: Optional[int]
 
 
+# TODO
 class CoubFileVersion(BaseModel):
     class Html5(BaseModel):
         class Video(BaseModel):
@@ -40,11 +45,16 @@ class CoubFileVersion(BaseModel):
         audio: Optional[Audio]
 
     class Mobile(BaseModel):
-        gifv: str
+        video: str
         audio: Optional[List[UrlStr]]
 
     html5: Html5
     mobile: Mobile
+
+
+# TODO
+class Communities(BaseModel):
+    pass
 
 
 class CoubAudioVersions(BaseModel):
@@ -187,26 +197,27 @@ class SubCoub(BaseModel):
 class BigCoub(BaseModel):
     from .channel import ChannelSmall
 
-    abuses: Optional[bool]
-    audio_file_url: Optional[UrlStr]
     id: int
     type: BigCoubType
-    permalink: str
     title: str
+    permalink: str
+    abuses: Optional[bool]
     visibility_type: VisibilityType
+    audio_file_url: Optional[UrlStr]
     channel_id: int
-    is_done: bool
     created_at: datetime
     updated_at: datetime
+    is_done: bool
     duration: float
     views_count: int
     cotd: Optional[bool]
     cotd_at: Optional[date]
-    recoub: bool
-    like: bool
+    recoub: Optional[bool]
+    like: Optional[bool]
     recoubs_count: int
     likes_count: int
     recoub_to: Optional[SubCoub]
+    flag: Optional[bool]
     original_sound: bool
     has_sound: bool
     file_versions: CoubFileVersion
@@ -228,9 +239,14 @@ class BigCoub(BaseModel):
     video_block_banned: bool
     audio_copyright_claim: Optional[str]
     categories: List[Categories]
-
+    dislikes_count: int
+    normalize_change_allowed: bool
+    promoted_id: Optional[str]
+    visible_on_explore: bool
+    visible_on_explore_root: bool
+    communities: List[Communities]
     # not documented or available for non-auth
-    flag: Optional[bool]
+    application: Optional[bool]
     published: Optional[bool]
     age_restricted_by_admin: Optional[bool]
     published_at: Optional[datetime]
@@ -255,3 +271,7 @@ class SmallCoub(BaseModel):
     title: str
     channel: ChannelSmall
     image_versions: ImageVersions
+
+
+class SchemalessBigCoub(BaseModel):
+    pass

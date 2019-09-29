@@ -1,0 +1,272 @@
+{
+  "flag": null,
+  "abuses": null,
+  "recoubs_by_users_channels": null,
+  "favourite": false,
+  "promoted_id": null,
+  "recoub": null,
+  "like": null,
+  "dislike": null,
+  "in_my_best2015": false,
+  "id": 101998552,
+  "type": "Coub::Simple",
+  "permalink": "1objuy",
+  "title": "Night Love",
+  "visibility_type": "public",
+  "original_visibility_type": "public",
+  "channel_id": 4837911,
+  "created_at": "2019-02-15T07:36:31Z",
+  "updated_at": "2019-07-18T16:29:41Z",
+  "is_done": true,
+  "views_count": 5594,
+  "cotd": null,
+  "cotd_at": null,
+  "visible_on_explore_root": false,
+  "visible_on_explore": false,
+  "featured": false,
+  "published": true,
+  "published_at": "2019-02-15T07:36:31Z",
+  "reversed": false,
+  "from_editor_v2": true,
+  "is_editable": true,
+  "original_sound": false,
+  "has_sound": false,
+  "recoub_to": null,
+  "file_versions": {
+    "html5": {
+      "video": {
+        "high": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b160/p/coub/simple/cw_file/dfe2ef27d5d/9573563c065bf97bd9894/muted_mp4_big_size_1550216233_muted_big.mp4",
+          "size": 2247384
+        },
+        "med": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b160/p/coub/simple/cw_file/dfe2ef27d5d/9573563c065bf97bd9894/muted_mp4_med_size_1550216233_muted_med.mp4",
+          "size": 571672
+        }
+      },
+      "audio": {
+        "high": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b160/p/coub/simple/cw_looped_audio/876178178e7/2023cc32bf68bf3e77673/high_1550216257_high.mp3",
+          "size": 2523999
+        },
+        "med": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b160/p/coub/simple/cw_looped_audio/876178178e7/2023cc32bf68bf3e77673/med_1550216257_med.mp3",
+          "size": 1785594
+        }
+      }
+    },
+    "mobile": {
+      "video": "https://coubsecure-s.akamaihd.net/get/b160/p/coub/simple/cw_file/dfe2ef27d5d/9573563c065bf97bd9894/muted_mp4_med_size_1550216233_muted_med.mp4?mobile",
+      "audio": [
+        "https://coubsecure-s.akamaihd.net/get/b160/p/coub/simple/cw_looped_audio/876178178e7/2023cc32bf68bf3e77673/med_m4a_1550216257_med.m4a",
+        "https://coubsecure-s.akamaihd.net/get/b160/p/coub/simple/cw_looped_audio/876178178e7/2023cc32bf68bf3e77673/med_1550216257_med.mp3"
+      ]
+    },
+    "share": {
+      "default": null
+    }
+  },
+  "audio_versions": {
+    "template": "https://coubsecure-s.akamaihd.net/get/b160/p/audio_track/cw_normalized_copy/abe187149dd/199de0bce0d4fd000196d/mid_1550216249_normalized_1550216235_2zofqd_edited.mp3",
+    "versions": [
+      "mid",
+      "low"
+    ],
+    "chunks": {
+      "template": "https://coubsecure-s.akamaihd.net/get/b160/p/audio_track/cw_normalized_copy/abe187149dd/199de0bce0d4fd000196d/mp3_%{version}_c%{chunk}_1550216249_normalized_1550216235_2zofqd_edited.mp3",
+      "versions": [
+        "mid",
+        "low"
+      ],
+      "chunks": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  "image_versions": {
+    "template": "https://coubsecure-s.akamaihd.net/get/b160/p/coub/simple/cw_image/75170388eb6/1257ba9a09c51d480be25/%{version}_1550216267_00032.jpg",
+    "versions": [
+      "micro",
+      "tiny",
+      "age_restricted",
+      "ios_large",
+      "ios_mosaic",
+      "big",
+      "med",
+      "small",
+      "pinterest"
+    ]
+  },
+  "first_frame_versions": {
+    "template": "https://coubsecure-s.akamaihd.net/get/b160/p/coub/simple/cw_timeline_pic/ca959bf5e26/d2f7eb787e6a36bb41ce3/%{version}_1550216266_image.jpg",
+    "versions": [
+      "big",
+      "med",
+      "small",
+      "ios_large"
+    ]
+  },
+  "dimensions": {
+    "big": [
+      1280,
+      610
+    ],
+    "med": [
+      640,
+      304
+    ]
+  },
+  "site_w_h": [
+    640,
+    305
+  ],
+  "page_w_h": [
+    640,
+    305
+  ],
+  "site_w_h_small": [
+    310,
+    148
+  ],
+  "size": [
+    1280,
+    610
+  ],
+  "age_restricted": false,
+  "age_restricted_by_admin": false,
+  "not_safe_for_work": false,
+  "allow_reuse": false,
+  "dont_crop": false,
+  "banned": false,
+  "global_safe": true,
+  "audio_file_url": "https://coubsecure-s.akamaihd.net/get/b160/p/audio_track/cw_normalized_copy/abe187149dd/199de0bce0d4fd000196d/low_1550216249_normalized_1550216235_2zofqd_edited.mp3",
+  "external_download": {
+    "type": "Youtube",
+    "service_name": "YouTube",
+    "url": "https://www.youtube.com/watch?v=kfxQmP87lg0",
+    "has_embed": true
+  },
+  "application": null,
+  "channel": {
+    "id": 4837911,
+    "permalink": "blackcoubs",
+    "title": "\ud83d\ude3eBlack Cat\u2122",
+    "description": "\ud83d\udda4 \ud835\udce6\ud835\udcee\ud835\udcf5\ud835\udcec\ud835\udcf8\ud835\udcf6\ud835\udcee \ud83d\udda4",
+    "followers_count": 301,
+    "following_count": 23,
+    "avatar_versions": {
+      "template": "https://coubsecure-s.akamaihd.net/get/b206/p/channel/cw_avatar/1c80457649c/b981a8a1e20fb93ad88b8/%{version}_1564238917_silhouette-1314468_960_720.png",
+      "versions": [
+        "medium",
+        "medium_2x",
+        "profile_pic",
+        "profile_pic_new",
+        "profile_pic_new_2x",
+        "tiny",
+        "tiny_2x",
+        "small",
+        "small_2x",
+        "ios_large",
+        "ios_small"
+      ]
+    },
+    "background_image": "https://coubsecure-s.akamaihd.net/get/b130/p/background/cw_banner_image/fd1e2614621/dede4c9625e46f98888c7/big_channel_1568079174_bynvp8_1568079160_33jxcd_1568017777_00032.jpg",
+    "coubs_count": 299,
+    "recoubs_count": 527
+  },
+  "file": null,
+  "picture": "https://coubsecure-s.akamaihd.net/get/b160/p/coub/simple/cw_image/75170388eb6/1257ba9a09c51d480be25/med_1550216267_00032.jpg",
+  "timeline_picture": "https://coubsecure-s.akamaihd.net/get/b160/p/coub/simple/cw_timeline_pic/ca959bf5e26/d2f7eb787e6a36bb41ce3/ios_large_1550216266_image.jpg",
+  "small_picture": "https://coubsecure-s.akamaihd.net/get/b160/p/coub/simple/cw_image/75170388eb6/1257ba9a09c51d480be25/ios_mosaic_1550216267_00032.jpg",
+  "sharing_picture": null,
+  "percent_done": 100,
+  "tags": [],
+  "categories": [
+    {
+      "id": 75,
+      "title": "Auto & Technique",
+      "permalink": "cars",
+      "subscriptions_count": 5624226,
+      "big_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/big_1545566648_Auto.png",
+      "small_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/small_1545566648_Auto.png",
+      "med_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/med_1545566648_Auto.png",
+      "visible": true
+    }
+  ],
+  "communities": [
+    {
+      "id": 75,
+      "title": "Auto & Technique",
+      "permalink": "cars",
+      "subscriptions_count": 5624226,
+      "big_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/big_1545566648_Auto.png",
+      "small_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/small_1545566648_Auto.png",
+      "med_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/med_1545566648_Auto.png",
+      "i_subscribed": true,
+      "community_notifications_enabled": null,
+      "description": null
+    }
+  ],
+  "recoubs_count": 12,
+  "remixes_count": 0,
+  "likes_count": 38,
+  "dislikes_count": 0,
+  "raw_video_id": 13219972,
+  "uploaded_by_ios_app": false,
+  "uploaded_by_android_app": false,
+  "media_blocks": {
+    "uploaded_raw_videos": [],
+    "external_raw_videos": [
+      {
+        "id": 30498187,
+        "title": "Night Lovell - PINK WITCH LESSON",
+        "url": "https://www.youtube.com/watch?v=kfxQmP87lg0",
+        "image": "https://coubsecure-s.akamaihd.net/get/b86/p/media_block/cw_image/f504981a6f2/d5ca9b1e477d76242a7cf/video_1550215898_d1zjnr_1550215867_ygok2a_att-url-download.jpg",
+        "image_retina": "https://coubsecure-s.akamaihd.net/get/b86/p/media_block/cw_image/f504981a6f2/d5ca9b1e477d76242a7cf/video_retina_1550215898_d1zjnr_1550215867_ygok2a_att-url-download.jpg",
+        "meta": {
+          "service": "Youtube",
+          "duration": "199.2"
+        },
+        "duration": 199.2,
+        "raw_video_id": 13219972,
+        "has_embed": true
+      }
+    ],
+    "remixed_from_coubs": [],
+    "external_video": {
+      "id": 30498187,
+      "title": "Night Lovell - PINK WITCH LESSON",
+      "url": "https://www.youtube.com/watch?v=kfxQmP87lg0",
+      "image": "https://coubsecure-s.akamaihd.net/get/b86/p/media_block/cw_image/f504981a6f2/d5ca9b1e477d76242a7cf/video_1550215898_d1zjnr_1550215867_ygok2a_att-url-download.jpg",
+      "image_retina": "https://coubsecure-s.akamaihd.net/get/b86/p/media_block/cw_image/f504981a6f2/d5ca9b1e477d76242a7cf/video_retina_1550215898_d1zjnr_1550215867_ygok2a_att-url-download.jpg",
+      "meta": {
+        "service": "Youtube",
+        "duration": "199.2"
+      },
+      "duration": 199.2,
+      "raw_video_id": 13219972,
+      "has_embed": true
+    }
+  },
+  "raw_video_thumbnail_url": "/missing/missing.png",
+  "raw_video_title": "Night Lovell - PINK WITCH LESSON",
+  "video_block_banned": false,
+  "duration": 10.0,
+  "promo_winner": false,
+  "promo_winner_recoubers": null,
+  "editorial_info": {},
+  "promo_hint": null,
+  "beeline_best_2014": null,
+  "from_web_editor": true,
+  "normalize_sound": true,
+  "normalize_change_allowed": true,
+  "best2015_addable": false,
+  "ahmad_promo": null,
+  "promo_data": null,
+  "audio_copyright_claim": null,
+  "ads_disabled": false,
+  "is_safe_for_ads": true
+}

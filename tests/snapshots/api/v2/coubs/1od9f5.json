@@ -1,0 +1,251 @@
+{
+  "flag": null,
+  "abuses": null,
+  "recoubs_by_users_channels": null,
+  "favourite": false,
+  "promoted_id": null,
+  "recoub": null,
+  "like": null,
+  "dislike": null,
+  "in_my_best2015": false,
+  "id": 102078335,
+  "type": "Coub::Simple",
+  "permalink": "1od9f5",
+  "title": "BAKER - WORLD IZ ON FIRE ",
+  "visibility_type": "public",
+  "original_visibility_type": "public",
+  "channel_id": 4679402,
+  "created_at": "2019-02-15T19:32:49Z",
+  "updated_at": "2019-09-01T11:15:40Z",
+  "is_done": true,
+  "views_count": 4028,
+  "cotd": null,
+  "cotd_at": null,
+  "visible_on_explore_root": false,
+  "visible_on_explore": false,
+  "featured": false,
+  "published": true,
+  "published_at": "2019-02-15T19:32:49Z",
+  "reversed": false,
+  "from_editor_v2": true,
+  "is_editable": true,
+  "original_sound": true,
+  "has_sound": true,
+  "recoub_to": null,
+  "file_versions": {
+    "html5": {
+      "video": {
+        "high": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b204/p/coub/simple/cw_file/594a1258cd9/6582340a9d1ce8056760d/muted_mp4_big_size_1550259183_muted_big.mp4",
+          "size": 3582196
+        },
+        "med": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b204/p/coub/simple/cw_file/594a1258cd9/6582340a9d1ce8056760d/muted_mp4_med_size_1550259183_muted_med.mp4",
+          "size": 1285906
+        }
+      },
+      "audio": {
+        "high": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b204/p/coub/simple/cw_looped_audio/d00efcb6dfb/4e8a694393734885700fd/high_1550259183_high.mp3",
+          "size": 1384705
+        },
+        "med": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b204/p/coub/simple/cw_looped_audio/d00efcb6dfb/4e8a694393734885700fd/med_1550259183_med.mp3",
+          "size": 953106
+        },
+        "sample_duration": 9.961
+      }
+    },
+    "mobile": {
+      "video": "https://coubsecure-s.akamaihd.net/get/b204/p/coub/simple/cw_file/594a1258cd9/6582340a9d1ce8056760d/muted_mp4_med_size_1550259183_muted_med.mp4?mobile",
+      "audio": [
+        "https://coubsecure-s.akamaihd.net/get/b204/p/coub/simple/cw_looped_audio/d00efcb6dfb/4e8a694393734885700fd/med_m4a_1550259183_med.m4a",
+        "https://coubsecure-s.akamaihd.net/get/b204/p/coub/simple/cw_looped_audio/d00efcb6dfb/4e8a694393734885700fd/med_1550259183_med.mp3"
+      ]
+    },
+    "share": {
+      "default": null
+    }
+  },
+  "audio_versions": {},
+  "image_versions": {
+    "template": "https://coubsecure-s.akamaihd.net/get/b204/p/coub/simple/cw_image/5719dacad88/54b1dc8eece2446151b19/%{version}_1550259193_00032.jpg",
+    "versions": [
+      "micro",
+      "tiny",
+      "age_restricted",
+      "ios_large",
+      "ios_mosaic",
+      "big",
+      "med",
+      "small",
+      "pinterest"
+    ]
+  },
+  "first_frame_versions": {
+    "template": "https://coubsecure-s.akamaihd.net/get/b204/p/coub/simple/cw_timeline_pic/ecfc3e11731/25664fc44f7788789e0eb/%{version}_1550259192_image.jpg",
+    "versions": [
+      "big",
+      "med",
+      "small",
+      "ios_large"
+    ]
+  },
+  "dimensions": {
+    "big": [
+      1280,
+      720
+    ],
+    "med": [
+      640,
+      360
+    ]
+  },
+  "site_w_h": [
+    640,
+    360
+  ],
+  "page_w_h": [
+    640,
+    360
+  ],
+  "site_w_h_small": [
+    310,
+    174
+  ],
+  "size": [
+    1280,
+    720
+  ],
+  "age_restricted": false,
+  "age_restricted_by_admin": false,
+  "not_safe_for_work": false,
+  "allow_reuse": false,
+  "dont_crop": false,
+  "banned": false,
+  "global_safe": true,
+  "audio_file_url": null,
+  "external_download": false,
+  "application": null,
+  "channel": {
+    "id": 4679402,
+    "permalink": "sixsixsix",
+    "title": "sixsixsix",
+    "description": "Japan cars atmosphere here (\u2229 \u0361\u00b0 \u035c\u0296 \u0361\u00b0)\u2283\u2501 \u2606",
+    "followers_count": 81,
+    "following_count": 12,
+    "avatar_versions": {
+      "template": "https://coubsecure-s.akamaihd.net/get/b207/p/channel/cw_avatar/239dcebbe54/f90eb9ec775c9f87462fa/%{version}_1564171926_cropped.jpeg",
+      "versions": [
+        "medium",
+        "medium_2x",
+        "profile_pic",
+        "profile_pic_new",
+        "profile_pic_new_2x",
+        "tiny",
+        "tiny_2x",
+        "small",
+        "small_2x",
+        "ios_large",
+        "ios_small"
+      ]
+    },
+    "background_image": "https://coubsecure-s.akamaihd.net/get/b132/p/background/cw_banner_image/ff8e5d072f4/960ab7a57f320910ec3f0/big_channel_1565905764_1utmrx3_1565905750_1ivo0iz_1565905750__________.png",
+    "coubs_count": 127,
+    "recoubs_count": 2
+  },
+  "file": null,
+  "picture": "https://coubsecure-s.akamaihd.net/get/b204/p/coub/simple/cw_image/5719dacad88/54b1dc8eece2446151b19/med_1550259193_00032.jpg",
+  "timeline_picture": "https://coubsecure-s.akamaihd.net/get/b204/p/coub/simple/cw_timeline_pic/ecfc3e11731/25664fc44f7788789e0eb/ios_large_1550259192_image.jpg",
+  "small_picture": "https://coubsecure-s.akamaihd.net/get/b204/p/coub/simple/cw_image/5719dacad88/54b1dc8eece2446151b19/ios_mosaic_1550259193_00032.jpg",
+  "sharing_picture": null,
+  "percent_done": 100,
+  "tags": [
+    {
+      "id": 6514,
+      "title": "japan",
+      "value": "japan"
+    },
+    {
+      "id": 636,
+      "title": "drift",
+      "value": "drift"
+    },
+    {
+      "id": 231300,
+      "title": "pair",
+      "value": "pair"
+    },
+    {
+      "id": 905,
+      "title": "mountain",
+      "value": "mountain"
+    },
+    {
+      "id": 313859,
+      "title": "phonk",
+      "value": "phonk"
+    },
+    {
+      "id": 78263,
+      "title": "sunday",
+      "value": "sunday"
+    }
+  ],
+  "categories": [
+    {
+      "id": 75,
+      "title": "Auto & Technique",
+      "permalink": "cars",
+      "subscriptions_count": 5624226,
+      "big_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/big_1545566648_Auto.png",
+      "small_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/small_1545566648_Auto.png",
+      "med_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/med_1545566648_Auto.png",
+      "visible": true
+    }
+  ],
+  "communities": [
+    {
+      "id": 75,
+      "title": "Auto & Technique",
+      "permalink": "cars",
+      "subscriptions_count": 5624226,
+      "big_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/big_1545566648_Auto.png",
+      "small_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/small_1545566648_Auto.png",
+      "med_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/med_1545566648_Auto.png",
+      "i_subscribed": true,
+      "community_notifications_enabled": null,
+      "description": null
+    }
+  ],
+  "recoubs_count": 5,
+  "remixes_count": 1,
+  "likes_count": 30,
+  "dislikes_count": 0,
+  "raw_video_id": 13223546,
+  "uploaded_by_ios_app": false,
+  "uploaded_by_android_app": false,
+  "media_blocks": {
+    "uploaded_raw_videos": [],
+    "external_raw_videos": [],
+    "remixed_from_coubs": []
+  },
+  "raw_video_thumbnail_url": "/missing/missing.png",
+  "raw_video_title": "________.mp4",
+  "video_block_banned": false,
+  "duration": 10.0,
+  "promo_winner": false,
+  "promo_winner_recoubers": null,
+  "editorial_info": {},
+  "promo_hint": null,
+  "beeline_best_2014": null,
+  "from_web_editor": true,
+  "normalize_sound": true,
+  "normalize_change_allowed": true,
+  "best2015_addable": false,
+  "ahmad_promo": null,
+  "promo_data": null,
+  "audio_copyright_claim": null,
+  "ads_disabled": false,
+  "is_safe_for_ads": true
+}

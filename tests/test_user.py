@@ -4,7 +4,7 @@ def test_me(coub_api_auth, requests_mock, snapshot_factory):
     assert coub_api_auth.users.me()
 
 
-def test_change_channel(coub_api_auth, requests_mock, snapshot_factory, token):
+def test_change_channel(coub_api_auth, requests_mock, snapshot_factory, mocker):
     channel_id = 123456
     requests_mock.put(
         "/api/v2/users/change_channel",
@@ -18,6 +18,7 @@ def test_change_channel(coub_api_auth, requests_mock, snapshot_factory, token):
         "follows": [],
         "likes": [],
         "recoubs": [],
-        "api_token": token,
+        "api_token": mocker.ANY,
         "user": {},
+        "dislikes": [],
     }

@@ -29,13 +29,14 @@ Key Features
 Getting started
 ===============
 Initiate Api client
-________
+___________________
 .. code-block:: python
 
+    import os
     from coub_api import CoubApi
 
     api = CoubApi()
-    access_token = "<your access token>"
+    os.environ.get("coub_access_token")
     api.authenticate(access_token)  # required for some authenticated requests
 
 
@@ -61,7 +62,7 @@ ___________
 
 
 Get weekly hot coubs
-___________
+____________________
 .. code-block:: python
 
     from coub_api.schemas.constants import Period
@@ -70,7 +71,7 @@ ___________
 
 
 Get 5 page of random section with cars
-___________
+______________________________________
 .. code-block:: python
 
     from coub_api.schemas.constants import Section, Category
@@ -93,10 +94,12 @@ How to use:
 ___________
 - Create Your Own_ application
 - Run server
+
 .. code-block:: RST
 
     coub-oauth2-server
 
 - Enter Your Application Id and Secret and grant access the Coub server.
 - Copy access token and start use it!
+
 .. _Own: http://coub.com/dev/applications

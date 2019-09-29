@@ -3,15 +3,22 @@ from enum import Enum, unique
 
 @unique
 class Section(str, Enum):
-    HOT = "hot"
-    RANDOM = "random"
+    # HOT = "hot"
+    # RANDOM = "random"
     NEWEST = "fresh"
     RISING = "rising"
 
 
 @unique
+class FeaturedSection(str, Enum):
+    NEWEST = ""
+    TOP_OF_THE_MONTH = "top_of_the_month"
+    UNDERVALUED = "undervalued"
+
+
+@unique
 class Period(str, Enum):
-    DAILY = ""
+    DAILY = "daily"
     MONTHLY = "monthly"
     WEEKLY = "weekly"
     QUARTER = "quarter"
@@ -38,15 +45,15 @@ class Category(str, Enum):
     NSFW = "nsfw"
     DANCE = "dance"
     NEWS = "news"
-    ARCHITECTURE = "architecture"
-    OMG = "omg"
-    TV_SERIES = "tv-series"
-    WTF = "wtf"
-    FUNNY = "funny"
-    LIVE = "live"
-    FOOD = "food"
-    GEEK = "geek"
-    PERFECT_LOOP = "perfect-loop"
+    # ARCHITECTURE = "architecture"
+    # OMG = "omg"
+    # TV_SERIES = "tv-series"
+    # WTF = "wtf"
+    # FUNNY = "funny"
+    # LIVE = "live"
+    # FOOD = "food"
+    # GEEK = "geek"
+    # PERFECT_LOOP = "perfect-loop"
 
 
 @unique

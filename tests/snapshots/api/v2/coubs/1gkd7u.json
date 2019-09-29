@@ -3,8 +3,10 @@
   "abuses": null,
   "recoubs_by_users_channels": null,
   "favourite": false,
+  "promoted_id": null,
   "recoub": null,
   "like": null,
+  "dislike": null,
   "in_my_best2015": false,
   "id": 88973026,
   "type": "Coub::Simple",
@@ -14,11 +16,14 @@
   "original_visibility_type": "public",
   "channel_id": 1397904,
   "created_at": "2018-10-22T16:46:15Z",
-  "updated_at": "2018-12-25T12:44:00Z",
+  "updated_at": "2019-09-29T10:41:49Z",
   "is_done": true,
-  "views_count": 1506848,
+  "views_count": 2545671,
   "cotd": null,
   "cotd_at": null,
+  "visible_on_explore_root": true,
+  "visible_on_explore": true,
+  "featured": true,
   "published": true,
   "published_at": "2018-10-22T16:47:11Z",
   "reversed": false,
@@ -30,9 +35,17 @@
   "file_versions": {
     "html5": {
       "video": {
+        "higher": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b82/p/coub/simple/cw_file/f8d4a8e8fd3/641c4acdb55e02d77b634/muted_mp4_huge_size_1569038148_muted_huge.mp4",
+          "size": 1331630
+        },
+        "high": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b82/p/coub/simple/cw_file/f8d4a8e8fd3/641c4acdb55e02d77b634/muted_mp4_big_size_1569038148_muted_big.mp4",
+          "size": 920158
+        },
         "med": {
-          "url": "https://coubsecure-s.akamaihd.net/get/b139/p/coub/simple/cw_file/f8d4a8e8fd3/641c4acdb55e02d77b634/muted_mp4_med_size_1540226781_muted_med.mp4",
-          "size": 313970
+          "url": "https://coubsecure-s.akamaihd.net/get/b82/p/coub/simple/cw_file/f8d4a8e8fd3/641c4acdb55e02d77b634/muted_mp4_med_size_1569038148_muted_med.mp4",
+          "size": 284879
         }
       },
       "audio": {
@@ -47,11 +60,14 @@
       }
     },
     "mobile": {
-      "gifv": "Ahr0Chm6lY9JB3vIC2vJDxjLlxmUywTHBwfPAgqUBMv0l2DLDc9Imtm5l3aVy291yI9ZAw1WBguVy3DFzMLSzs9Mogq0ytHLogzKmY82ndfJngfJzgi1nwuWmMq3n2i2mZqVz2LMDL8XntqWmJi2nZGXxZe1mZu2mZG5x2DPzNyUBxa0",
+      "video": "https://coubsecure-s.akamaihd.net/get/b82/p/coub/simple/cw_file/f8d4a8e8fd3/641c4acdb55e02d77b634/muted_mp4_med_size_1569038148_muted_med.mp4?mobile",
       "audio": [
         "https://coubsecure-s.akamaihd.net/get/b89/p/coub/simple/cw_looped_audio/27b6b80913b/0bc1e817b9eb918422cbc/med_m4a_1540226783_med.m4a",
         "https://coubsecure-s.akamaihd.net/get/b89/p/coub/simple/cw_looped_audio/27b6b80913b/0bc1e817b9eb918422cbc/med_1540226783_med.mp3"
       ]
+    },
+    "share": {
+      "default": "https://coubsecure-s.akamaihd.net/get/b19/p/coub/simple/cw_video_for_sharing/2829b6eb721/4244016ead5d37b2b3f0d/1569038158_looped_1569038156.mp4"
     }
   },
   "audio_versions": {
@@ -99,8 +115,8 @@
   },
   "dimensions": {
     "big": [
-      936,
-      528
+      1280,
+      722
     ],
     "med": [
       640,
@@ -119,6 +135,10 @@
     310,
     175
   ],
+  "size": [
+    1280,
+    722
+  ],
   "age_restricted": false,
   "age_restricted_by_admin": false,
   "not_safe_for_work": false,
@@ -134,8 +154,8 @@
     "permalink": "funnykaplan",
     "title": "Funny Kaplan",
     "description": "Funny Or Not Here I Come",
-    "followers_count": 5840,
-    "following_count": 170,
+    "followers_count": 10449,
+    "following_count": 182,
     "avatar_versions": {
       "template": "https://coubsecure-s.akamaihd.net/get/b78/p/channel/cw_avatar/3466001cc9f/7bef465ddaf551643cdfd/%{version}_1486022923_pv_14222.jpg",
       "versions": [
@@ -152,9 +172,9 @@
         "ios_small"
       ]
     },
-    "background_image": "https://coubsecure-s.akamaihd.net/get/b177/p/background/cw_banner_image/e7c5bcd8feb/dd3a5a2678dcd807de50a/big_channel_1502691369_1466398488_00012.jpg",
-    "coubs_count": 833,
-    "recoubs_count": 89
+    "background_image": "https://coubsecure-s.akamaihd.net/get/b206/p/background/cw_banner_image/9cf5d22f29e/6da459cef4b61b675a566/big_channel_1554180322_186kk1n_1554180299_6h3nuc_1554180280_18i7lgp_1554180276_5a67en_1466398488_00012.jpg",
+    "coubs_count": 992,
+    "recoubs_count": 90
   },
   "file": null,
   "picture": "https://coubsecure-s.akamaihd.net/get/b142/p/coub/simple/cw_image/a38c40183d1/0555a5628277789936268/med_1540226788_00019.jpg",
@@ -199,15 +219,37 @@
       "id": 32,
       "title": "Animals & Pets",
       "permalink": "animals-pets",
-      "visible": true,
+      "subscriptions_count": 5624258,
       "big_image_url": "https://coubsecure-s.akamaihd.net/get/b95/p/category/cw_image/60432c0f1f4/5d35698dc76c52d5f9e63/big_1544749976_animals2.png",
       "small_image_url": "https://coubsecure-s.akamaihd.net/get/b95/p/category/cw_image/60432c0f1f4/5d35698dc76c52d5f9e63/small_1544749976_animals2.png",
-      "med_image_url": "https://coubsecure-s.akamaihd.net/get/b95/p/category/cw_image/60432c0f1f4/5d35698dc76c52d5f9e63/med_1544749976_animals2.png"
+      "med_image_url": "https://coubsecure-s.akamaihd.net/get/b95/p/category/cw_image/60432c0f1f4/5d35698dc76c52d5f9e63/med_1544749976_animals2.png",
+      "visible": true
     }
   ],
-  "recoubs_count": 5260,
-  "remixes_count": 14,
-  "likes_count": 23316,
+  "communities": [
+    {
+      "id": 32,
+      "title": "Animals & Pets",
+      "permalink": "animals-pets",
+      "subscriptions_count": 5624258,
+      "big_image_url": "https://coubsecure-s.akamaihd.net/get/b95/p/category/cw_image/60432c0f1f4/5d35698dc76c52d5f9e63/big_1544749976_animals2.png",
+      "small_image_url": "https://coubsecure-s.akamaihd.net/get/b95/p/category/cw_image/60432c0f1f4/5d35698dc76c52d5f9e63/small_1544749976_animals2.png",
+      "med_image_url": "https://coubsecure-s.akamaihd.net/get/b95/p/category/cw_image/60432c0f1f4/5d35698dc76c52d5f9e63/med_1544749976_animals2.png",
+      "i_subscribed": true,
+      "community_notifications_enabled": null,
+      "description": {
+        "id": 3,
+        "description": "1\n\n\n2",
+        "rules": [],
+        "description_html": "<p>1&nbsp;\n&nbsp;\n&nbsp;\n2</p>\n",
+        "rules_html": []
+      }
+    }
+  ],
+  "recoubs_count": 7573,
+  "remixes_count": 21,
+  "likes_count": 34795,
+  "dislikes_count": 2,
   "raw_video_id": 12573309,
   "uploaded_by_ios_app": false,
   "uploaded_by_android_app": false,
@@ -227,6 +269,7 @@
   "beeline_best_2014": null,
   "from_web_editor": true,
   "normalize_sound": true,
+  "normalize_change_allowed": true,
   "best2015_addable": false,
   "ahmad_promo": null,
   "promo_data": null,

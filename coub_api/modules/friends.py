@@ -1,12 +1,12 @@
 from typing import Dict, Union, Optional
 
+from coub_api.modules.base import BaseConnector
 from coub_api.schemas.friends import (
     FollowResponse,
     FriendsResponse,
     RecommendedResponse,
 )
 from coub_api.schemas.constants import Provider
-from .base import BaseConnector
 
 __all__ = ("Friends",)
 

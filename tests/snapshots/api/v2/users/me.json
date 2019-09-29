@@ -1,16 +1,16 @@
 {
   "id": 338485,
   "permalink": "71fcc0ac68f3ca5b57fba039f1af80c9",
-  "name": "Андрей Гриневич",
+  "name": "\u0410\u043d\u0434\u0440\u0435\u0439 \u0413\u0440\u0438\u043d\u0435\u0432\u0438\u0447",
   "sex": "male",
   "city": null,
   "current_channel": {
     "id": 313669,
-    "permalink": "71fcc0ac68f3ca5b57fba039f1af80c9",
+    "permalink": "andrej-grinevich",
     "title": "Andrey Grinevich",
     "description": null,
-    "followers_count": 5,
-    "following_count": 16,
+    "followers_count": 39,
+    "following_count": 17,
     "avatar_versions": {
       "template": "https://coubsecure-s.akamaihd.net/get/b158/p/channel/cw_avatar/cdc0bb1596e/586a8108000d9c3eee3bf/%{version}_1544363931_vlcsnap-2018-12-08-12h02m14s694.png",
       "versions": [
@@ -29,23 +29,23 @@
     }
   },
   "created_at": "2014-01-01T00:27:54Z",
-  "updated_at": "2018-12-10T18:15:05Z",
+  "updated_at": "2019-09-29T12:49:15Z",
   "has_linked_vine_accounts": false,
-  "likes_count": 130,
+  "likes_count": 144,
   "favourites_count": 0,
-  "api_token": "a1b417569b80ec5ba2b480fee97cdf765afbe15908d3575887042c83e4a859af91bab3c0abd8f98b4afce0ae228d675f882dd654ffc3d8f4303c18fd6b578c13",
+  "api_token": "9a29c53d824645be9c67f119f6140408",
   "channels": [
     {
-      "simple_coubs_count": 6,
+      "simple_coubs_count": 7,
       "id": 313669,
       "user_id": 338485,
       "crown": null,
-      "permalink": "71fcc0ac68f3ca5b57fba039f1af80c9",
+      "permalink": "andrej-grinevich",
       "title": "Andrey Grinevich",
       "description": null,
       "contacts": {},
       "created_at": "2014-07-10T15:19:49Z",
-      "updated_at": "2018-12-09T20:44:27Z",
+      "updated_at": "2019-09-18T19:51:08Z",
       "avatar_versions": {
         "template": "https://coubsecure-s.akamaihd.net/get/b158/p/channel/cw_avatar/cdc0bb1596e/586a8108000d9c3eee3bf/%{version}_1544363931_vlcsnap-2018-12-08-12h02m14s694.png",
         "versions": [
@@ -62,17 +62,18 @@
           "ios_small"
         ]
       },
-      "followers_count": 5,
-      "following_count": 16,
-      "recoubs_count": 4,
-      "likes_count": 130,
+      "followers_count": 39,
+      "following_count": 17,
+      "recoubs_count": 5,
+      "likes_count": 144,
+      "channel_notifications_enabled": null,
       "stories_count": 0,
       "authentications": [
         {
           "id": 328098,
           "channel_id": 313669,
           "provider": "facebook",
-          "username_from_provider": "Андрей Гриневич"
+          "username_from_provider": "\u0410\u043d\u0434\u0440\u0435\u0439 \u0413\u0440\u0438\u043d\u0435\u0432\u0438\u0447"
         },
         {
           "id": 3786622,
@@ -93,7 +94,7 @@
         "youtube": null,
         "vimeo": null
       },
-      "views_count": 1610,
+      "views_count": 17186,
       "hide_owner": false
     },
     {
@@ -106,7 +107,7 @@
       "description": null,
       "contacts": {},
       "created_at": "2018-12-09T13:35:28Z",
-      "updated_at": "2018-12-09T20:44:27Z",
+      "updated_at": "2019-09-18T19:51:08Z",
       "avatar_versions": {
         "template": "https://coubsecureassets-a.akamaihd.net/assets/default-avatars/267-7f4d95661cd5ec0181a11c0d74499f6f46d93a702842c87cf0f40617f7f9c16c.png"
       },
@@ -114,6 +115,7 @@
       "following_count": 11,
       "recoubs_count": 0,
       "likes_count": 0,
+      "channel_notifications_enabled": null,
       "stories_count": 0,
       "authentications": [],
       "background_coub": null,
@@ -144,7 +146,7 @@
         "vimeo": ""
       },
       "created_at": "2018-12-09T13:51:02Z",
-      "updated_at": "2018-12-09T20:44:27Z",
+      "updated_at": "2019-09-18T19:51:08Z",
       "avatar_versions": {
         "template": "https://coubsecureassets-a.akamaihd.net/assets/default-avatars/309-469ea82290f97ef8a1be87f34a701e58c46abd43d49c105705e0a53eebeae0fa.png"
       },
@@ -152,6 +154,7 @@
       "following_count": 11,
       "recoubs_count": 0,
       "likes_count": 0,
+      "channel_notifications_enabled": null,
       "stories_count": 0,
       "authentications": [],
       "background_coub": null,
@@ -177,7 +180,7 @@
       "description": null,
       "contacts": {},
       "created_at": "2018-12-09T13:54:25Z",
-      "updated_at": "2018-12-09T20:44:27Z",
+      "updated_at": "2019-09-18T19:51:08Z",
       "avatar_versions": {
         "template": "https://coubsecure-s.akamaihd.net/get/b98/p/channel/cw_avatar/d9a20a05f3f/fb7b6c0169100c4ce3815/%{version}_1544366015_vlcsnap-2018-12-07-21h14m20s009.png",
         "versions": [
@@ -194,10 +197,11 @@
           "ios_small"
         ]
       },
-      "followers_count": 0,
+      "followers_count": 4,
       "following_count": 11,
       "recoubs_count": 0,
       "likes_count": 0,
+      "channel_notifications_enabled": null,
       "stories_count": 0,
       "authentications": [],
       "background_coub": null,

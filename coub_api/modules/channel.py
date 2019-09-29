@@ -1,7 +1,7 @@
 from typing import Optional
 
+from coub_api.modules.base import BaseConnector
 from coub_api.schemas.channel import ChannelBig, ChannelResponse
-from .base import BaseConnector
 
 __all__ = ("Channel",)
 

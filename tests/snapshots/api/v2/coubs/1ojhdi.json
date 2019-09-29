@@ -1,0 +1,276 @@
+{
+  "flag": null,
+  "abuses": null,
+  "recoubs_by_users_channels": null,
+  "favourite": false,
+  "promoted_id": null,
+  "recoub": null,
+  "like": null,
+  "dislike": null,
+  "in_my_best2015": false,
+  "id": 102368579,
+  "type": "Coub::Simple",
+  "permalink": "1ojhdi",
+  "title": "When your girlfriend says she's home alone",
+  "visibility_type": "public",
+  "original_visibility_type": "public",
+  "channel_id": 4807954,
+  "created_at": "2019-02-17T20:45:29Z",
+  "updated_at": "2019-09-21T03:47:16Z",
+  "is_done": true,
+  "views_count": 45743,
+  "cotd": null,
+  "cotd_at": null,
+  "visible_on_explore_root": false,
+  "visible_on_explore": false,
+  "featured": false,
+  "published": true,
+  "published_at": "2019-02-17T20:45:29Z",
+  "reversed": false,
+  "from_editor_v2": true,
+  "is_editable": true,
+  "original_sound": true,
+  "has_sound": true,
+  "recoub_to": null,
+  "file_versions": {
+    "html5": {
+      "video": {
+        "high": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b172/p/coub/simple/cw_file/e23251cbc8e/010406cf1d21001b63f40/muted_mp4_big_size_1550436336_muted_big.mp4",
+          "size": 714947
+        },
+        "med": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b172/p/coub/simple/cw_file/e23251cbc8e/010406cf1d21001b63f40/muted_mp4_med_size_1550436336_muted_med.mp4",
+          "size": 224102
+        }
+      },
+      "audio": {
+        "high": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b172/p/coub/simple/cw_looped_audio/bd82aa02c28/d932cf4b10f44a1f2db2d/high_1550436336_high.mp3",
+          "size": 1104472
+        },
+        "med": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b172/p/coub/simple/cw_looped_audio/bd82aa02c28/d932cf4b10f44a1f2db2d/med_1550436336_med.mp3",
+          "size": 842677
+        },
+        "sample_duration": 6.687
+      }
+    },
+    "mobile": {
+      "video": "https://coubsecure-s.akamaihd.net/get/b172/p/coub/simple/cw_file/e23251cbc8e/010406cf1d21001b63f40/muted_mp4_med_size_1550436336_muted_med.mp4?mobile",
+      "audio": [
+        "https://coubsecure-s.akamaihd.net/get/b172/p/coub/simple/cw_looped_audio/bd82aa02c28/d932cf4b10f44a1f2db2d/med_m4a_1550436336_med.m4a",
+        "https://coubsecure-s.akamaihd.net/get/b172/p/coub/simple/cw_looped_audio/bd82aa02c28/d932cf4b10f44a1f2db2d/med_1550436336_med.mp3"
+      ]
+    },
+    "share": {
+      "default": null
+    }
+  },
+  "audio_versions": {},
+  "image_versions": {
+    "template": "https://coubsecure-s.akamaihd.net/get/b172/p/coub/simple/cw_image/542645c6345/c48a9803cce24d0fc00e8/%{version}_1550436341_00021.jpg",
+    "versions": [
+      "micro",
+      "tiny",
+      "age_restricted",
+      "ios_large",
+      "ios_mosaic",
+      "big",
+      "med",
+      "small",
+      "pinterest"
+    ]
+  },
+  "first_frame_versions": {
+    "template": "https://coubsecure-s.akamaihd.net/get/b172/p/coub/simple/cw_timeline_pic/214ac695338/5cd6671ba91a17144857a/%{version}_1550436341_image.jpg",
+    "versions": [
+      "big",
+      "med",
+      "small",
+      "ios_large"
+    ]
+  },
+  "dimensions": {
+    "big": [
+      1280,
+      642
+    ],
+    "med": [
+      640,
+      320
+    ]
+  },
+  "site_w_h": [
+    640,
+    321
+  ],
+  "page_w_h": [
+    640,
+    321
+  ],
+  "site_w_h_small": [
+    310,
+    155
+  ],
+  "size": [
+    1280,
+    642
+  ],
+  "age_restricted": false,
+  "age_restricted_by_admin": false,
+  "not_safe_for_work": false,
+  "allow_reuse": false,
+  "dont_crop": false,
+  "banned": false,
+  "global_safe": true,
+  "audio_file_url": null,
+  "external_download": false,
+  "application": null,
+  "channel": {
+    "id": 4807954,
+    "permalink": "hungariancarcoub",
+    "title": "Patrik Puszta",
+    "description": "Hello everyone! It's a Hungarian car Coub channel. Enjoy my videos!",
+    "followers_count": 1535,
+    "following_count": 0,
+    "avatar_versions": {
+      "template": "https://coubsecure-s.akamaihd.net/get/b128/p/channel/cw_avatar/136561e39e8/759f5d80139b98549c316/%{version}_1537284092_1pts662_1799277590184361.jpg",
+      "versions": [
+        "medium",
+        "medium_2x",
+        "profile_pic",
+        "profile_pic_new",
+        "profile_pic_new_2x",
+        "tiny",
+        "tiny_2x",
+        "small",
+        "small_2x",
+        "ios_large",
+        "ios_small"
+      ]
+    },
+    "background_image": "https://coubsecure-s.akamaihd.net/get/b99/p/background/cw_banner_image/e71e695fb34/f4a934d95cfa9d7b2f73e/big_channel_1546124648_umrt5d_1546124629_10vk4c2_1546124562_00032.jpg",
+    "coubs_count": 1476,
+    "recoubs_count": 0
+  },
+  "file": null,
+  "picture": "https://coubsecure-s.akamaihd.net/get/b172/p/coub/simple/cw_image/542645c6345/c48a9803cce24d0fc00e8/med_1550436341_00021.jpg",
+  "timeline_picture": "https://coubsecure-s.akamaihd.net/get/b172/p/coub/simple/cw_timeline_pic/214ac695338/5cd6671ba91a17144857a/ios_large_1550436341_image.jpg",
+  "small_picture": "https://coubsecure-s.akamaihd.net/get/b172/p/coub/simple/cw_image/542645c6345/c48a9803cce24d0fc00e8/ios_mosaic_1550436341_00021.jpg",
+  "sharing_picture": null,
+  "percent_done": 100,
+  "tags": [
+    {
+      "id": 8459,
+      "title": "girlfriend",
+      "value": "girlfriend"
+    },
+    {
+      "id": 1181,
+      "title": "home",
+      "value": "home"
+    },
+    {
+      "id": 2332,
+      "title": "alone",
+      "value": "alone"
+    },
+    {
+      "id": 46296,
+      "title": "home alone",
+      "value": "home%20alone"
+    },
+    {
+      "id": 234,
+      "title": "crazy",
+      "value": "crazy"
+    },
+    {
+      "id": 431,
+      "title": "mad",
+      "value": "mad"
+    },
+    {
+      "id": 1071,
+      "title": "cool",
+      "value": "cool"
+    },
+    {
+      "id": 1175,
+      "title": "fast",
+      "value": "fast"
+    },
+    {
+      "id": 3467058,
+      "title": "in a hurry",
+      "value": "in%20a%20hurry"
+    },
+    {
+      "id": 3118,
+      "title": "rally",
+      "value": "rally"
+    },
+    {
+      "id": 7105,
+      "title": "can't touch this",
+      "value": "can't%20touch%20this"
+    }
+  ],
+  "categories": [
+    {
+      "id": 75,
+      "title": "Auto & Technique",
+      "permalink": "cars",
+      "subscriptions_count": 5624226,
+      "big_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/big_1545566648_Auto.png",
+      "small_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/small_1545566648_Auto.png",
+      "med_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/med_1545566648_Auto.png",
+      "visible": true
+    }
+  ],
+  "communities": [
+    {
+      "id": 75,
+      "title": "Auto & Technique",
+      "permalink": "cars",
+      "subscriptions_count": 5624226,
+      "big_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/big_1545566648_Auto.png",
+      "small_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/small_1545566648_Auto.png",
+      "med_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/med_1545566648_Auto.png",
+      "i_subscribed": true,
+      "community_notifications_enabled": null,
+      "description": null
+    }
+  ],
+  "recoubs_count": 103,
+  "remixes_count": 0,
+  "likes_count": 527,
+  "dislikes_count": 0,
+  "raw_video_id": 13235799,
+  "uploaded_by_ios_app": false,
+  "uploaded_by_android_app": false,
+  "media_blocks": {
+    "uploaded_raw_videos": [],
+    "external_raw_videos": [],
+    "remixed_from_coubs": []
+  },
+  "raw_video_thumbnail_url": "/missing/missing.png",
+  "raw_video_title": "bandicam_2019-02-17_21-42-56-709.mp4",
+  "video_block_banned": false,
+  "duration": 6.68,
+  "promo_winner": false,
+  "promo_winner_recoubers": null,
+  "editorial_info": {},
+  "promo_hint": null,
+  "beeline_best_2014": null,
+  "from_web_editor": true,
+  "normalize_sound": true,
+  "normalize_change_allowed": true,
+  "best2015_addable": false,
+  "ahmad_promo": null,
+  "promo_data": null,
+  "audio_copyright_claim": null,
+  "ads_disabled": false,
+  "is_safe_for_ads": true
+}

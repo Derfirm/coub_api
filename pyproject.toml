@@ -1,6 +1,50 @@
+[tool.black]
+line-length = 88
+target-version = ["py37"]
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.venv
+  | \.vscode
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+combine_as_imports = true
+default_section = "LOCALFOLDER"
+no_lines_before = "LOCALFOLDER"
+force_grid_wrap = false
+include_trailing_comma = true
+known_first_party = """
+  coub_api
+"""
+known_third_party = """
+  pydantic
+  pytest
+"""
+line_length = 88
+multi_line_output = 3
+length_sort = "1"
+not_skip = "__init__.py"
+sections = "FUTURE,STDLIB,THIRDPARTY,FIRSTPARTY,LOCALFOLDER"
+skip = ".eggs,.venv,venv"
+
+[tool.flake8]
+max-line-length=88
+
+[tool.mypy]
+ignore_missing_imports = true
+
 [tool.poetry]
 name = "coub_api"
-version = "0.1.2"
+version = "0.2.0-alpha.0"
 description = "Api wrapper for coub.com"
 authors = ["Andrew Grinevich <andrew.grinevich@gmail.com>"]
 readme = "README.rst"
@@ -30,17 +74,19 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.6"
-pydantic = "^0.16.1"
+pydantic = "*"
 
 [tool.poetry.dev-dependencies]
-black = {version = "^18.3-alpha.0",allows-prereleases = true}
-flake8 = "^3.6"
-pytest = "^3.0"
-pytest-cov = "^2.6"
-isort = "^4.3"
-requests-mock = "^1.5"
-yarl = "^1.2"
-mypy = "^0.650.0"
+black = {version = "*", allows-prereleases = true}
+flake8 = "*"
+pytest = "*"
+pytest-cov = "*"
+isort = "*"
+requests-mock = "*"
+yarl = "*"
+mypy = "*"
+deepdiff = "^4.0"
+pytest-mock = "^1.11"
 
 [tool.poetry.scripts]
 coub-oauth2-server = "console.dummy_oauth2_server:main"

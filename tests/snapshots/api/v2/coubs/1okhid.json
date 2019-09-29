@@ -1,0 +1,380 @@
+{
+  "flag": null,
+  "abuses": null,
+  "recoubs_by_users_channels": null,
+  "favourite": false,
+  "promoted_id": null,
+  "recoub": null,
+  "like": null,
+  "dislike": null,
+  "in_my_best2015": false,
+  "id": 102415409,
+  "type": "Coub::Simple",
+  "permalink": "1okhid",
+  "title": "R8 (\u0421\u043f\u043b\u044e \u0438 \u0434\u0435\u043b\u0430\u044e \u043a\u043e\u0443\u0431\u044b)",
+  "visibility_type": "public",
+  "original_visibility_type": "public",
+  "channel_id": 3875837,
+  "created_at": "2019-02-18T08:15:33Z",
+  "updated_at": "2019-07-18T16:37:24Z",
+  "is_done": true,
+  "views_count": 3327,
+  "cotd": null,
+  "cotd_at": null,
+  "visible_on_explore_root": false,
+  "visible_on_explore": false,
+  "featured": false,
+  "published": true,
+  "published_at": "2019-02-18T08:15:32Z",
+  "reversed": false,
+  "from_editor_v2": true,
+  "is_editable": true,
+  "original_sound": false,
+  "has_sound": false,
+  "recoub_to": null,
+  "file_versions": {
+    "html5": {
+      "video": {
+        "high": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b37/p/coub/simple/cw_file/cb1ff7c33df/1089f0dee55ee48e759d5/muted_mp4_big_size_1550477749_muted_big.mp4",
+          "size": 3073284
+        },
+        "med": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b37/p/coub/simple/cw_file/cb1ff7c33df/1089f0dee55ee48e759d5/muted_mp4_med_size_1550477749_muted_med.mp4",
+          "size": 894335
+        }
+      },
+      "audio": {
+        "high": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b37/p/coub/simple/cw_looped_audio/3f773f80160/04f95cec00b7e88aa4b56/high_1550477768_high.mp3",
+          "size": 2224196
+        },
+        "med": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b37/p/coub/simple/cw_looped_audio/3f773f80160/04f95cec00b7e88aa4b56/med_1550477768_med.mp3",
+          "size": 1847280
+        }
+      }
+    },
+    "mobile": {
+      "video": "https://coubsecure-s.akamaihd.net/get/b37/p/coub/simple/cw_file/cb1ff7c33df/1089f0dee55ee48e759d5/muted_mp4_med_size_1550477749_muted_med.mp4?mobile",
+      "audio": [
+        "https://coubsecure-s.akamaihd.net/get/b37/p/coub/simple/cw_looped_audio/3f773f80160/04f95cec00b7e88aa4b56/med_m4a_1550477768_med.m4a",
+        "https://coubsecure-s.akamaihd.net/get/b37/p/coub/simple/cw_looped_audio/3f773f80160/04f95cec00b7e88aa4b56/med_1550477768_med.mp3"
+      ]
+    },
+    "share": {
+      "default": null
+    }
+  },
+  "audio_versions": {
+    "template": "https://coubsecure-s.akamaihd.net/get/b37/p/audio_track/cw_file/8f18c7ca9fd/a1c9a6895c3a23590677b/mid_1550477752_utji4k_edited.mp3",
+    "versions": [
+      "mid",
+      "low"
+    ],
+    "chunks": {
+      "template": "https://coubsecure-s.akamaihd.net/get/b37/p/audio_track/cw_file/8f18c7ca9fd/a1c9a6895c3a23590677b/mp3_%{version}_c%{chunk}_1550477752_utji4k_edited.mp3",
+      "versions": [
+        "mid",
+        "low"
+      ],
+      "chunks": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  "image_versions": {
+    "template": "https://coubsecure-s.akamaihd.net/get/b37/p/coub/simple/cw_image/516cd97cdf5/0e42e787dbd35e7cb1433/%{version}_1550477782_00032.jpg",
+    "versions": [
+      "micro",
+      "tiny",
+      "age_restricted",
+      "ios_large",
+      "ios_mosaic",
+      "big",
+      "med",
+      "small",
+      "pinterest"
+    ]
+  },
+  "first_frame_versions": {
+    "template": "https://coubsecure-s.akamaihd.net/get/b37/p/coub/simple/cw_timeline_pic/726bc5a71bc/5904c3ca7f613b12e23ee/%{version}_1550477781_image.jpg",
+    "versions": [
+      "big",
+      "med",
+      "small",
+      "ios_large"
+    ]
+  },
+  "dimensions": {
+    "big": [
+      1280,
+      674
+    ],
+    "med": [
+      640,
+      336
+    ]
+  },
+  "site_w_h": [
+    640,
+    337
+  ],
+  "page_w_h": [
+    640,
+    337
+  ],
+  "site_w_h_small": [
+    310,
+    163
+  ],
+  "size": [
+    1280,
+    674
+  ],
+  "age_restricted": false,
+  "age_restricted_by_admin": false,
+  "not_safe_for_work": false,
+  "allow_reuse": false,
+  "dont_crop": false,
+  "banned": false,
+  "global_safe": false,
+  "audio_file_url": "https://coubsecure-s.akamaihd.net/get/b37/p/audio_track/cw_file/8f18c7ca9fd/a1c9a6895c3a23590677b/low_1550477752_utji4k_edited.mp3",
+  "external_download": false,
+  "application": null,
+  "channel": {
+    "id": 3875837,
+    "permalink": "s4ygush3v",
+    "title": "S4YGUSH3V",
+    "description": null,
+    "followers_count": 67,
+    "following_count": 24,
+    "avatar_versions": {
+      "template": "https://coubsecure-s.akamaihd.net/get/b203/p/channel/cw_avatar/8f75ed4bd2d/6e99012dbb4bbb0b0e6ed/%{version}_1524421001_2.png",
+      "versions": [
+        "medium",
+        "medium_2x",
+        "profile_pic",
+        "profile_pic_new",
+        "profile_pic_new_2x",
+        "tiny",
+        "tiny_2x",
+        "small",
+        "small_2x",
+        "ios_large",
+        "ios_small"
+      ]
+    },
+    "background_image": "https://coubsecure-s.akamaihd.net/get/b184/p/background/cw_banner_image/ede79f93a52/4a9823144453248b0c8c7/big_channel_1540664927_1u2mvvm_1540664920_1a37v4q_1540556391_00025.jpg",
+    "coubs_count": 112,
+    "recoubs_count": 190
+  },
+  "file": null,
+  "picture": "https://coubsecure-s.akamaihd.net/get/b37/p/coub/simple/cw_image/516cd97cdf5/0e42e787dbd35e7cb1433/med_1550477782_00032.jpg",
+  "timeline_picture": "https://coubsecure-s.akamaihd.net/get/b37/p/coub/simple/cw_timeline_pic/726bc5a71bc/5904c3ca7f613b12e23ee/ios_large_1550477781_image.jpg",
+  "small_picture": "https://coubsecure-s.akamaihd.net/get/b37/p/coub/simple/cw_image/516cd97cdf5/0e42e787dbd35e7cb1433/ios_mosaic_1550477782_00032.jpg",
+  "sharing_picture": null,
+  "percent_done": 100,
+  "tags": [
+    {
+      "id": 18593,
+      "title": "audi",
+      "value": "audi"
+    },
+    {
+      "id": 174443,
+      "title": "r8",
+      "value": "r8"
+    },
+    {
+      "id": 51728,
+      "title": "audi r8",
+      "value": "audi%20r8"
+    },
+    {
+      "id": 25440,
+      "title": "tuning",
+      "value": "tuning"
+    },
+    {
+      "id": 337,
+      "title": "custom",
+      "value": "custom"
+    },
+    {
+      "id": 1901,
+      "title": "stance",
+      "value": "stance"
+    },
+    {
+      "id": 103993,
+      "title": "stance nation",
+      "value": "stance%20nation"
+    },
+    {
+      "id": 30677,
+      "title": "wheels",
+      "value": "wheels"
+    },
+    {
+      "id": 1907,
+      "title": "slammed",
+      "value": "slammed"
+    },
+    {
+      "id": 53672,
+      "title": "bagged",
+      "value": "bagged"
+    },
+    {
+      "id": 993,
+      "title": "cars",
+      "value": "cars"
+    },
+    {
+      "id": 1173,
+      "title": "car",
+      "value": "car"
+    },
+    {
+      "id": 382252,
+      "title": "carporn",
+      "value": "carporn"
+    },
+    {
+      "id": 646777,
+      "title": "libertywalk",
+      "value": "libertywalk"
+    },
+    {
+      "id": 18359,
+      "title": "turbo",
+      "value": "turbo"
+    },
+    {
+      "id": 636,
+      "title": "drift",
+      "value": "drift"
+    },
+    {
+      "id": 877,
+      "title": "burnout",
+      "value": "burnout"
+    },
+    {
+      "id": 145571,
+      "title": "black cat",
+      "value": "black%20cat"
+    },
+    {
+      "id": 1339,
+      "title": "stars",
+      "value": "stars"
+    },
+    {
+      "id": 951,
+      "title": "top",
+      "value": "top"
+    },
+    {
+      "id": 257922,
+      "title": "2019",
+      "value": "2019"
+    },
+    {
+      "id": 568188,
+      "title": "like for like",
+      "value": "like%20for%20like"
+    },
+    {
+      "id": 588488,
+      "title": "cool coub",
+      "value": "cool%20coub"
+    },
+    {
+      "id": 202401,
+      "title": "car music",
+      "value": "car%20music"
+    },
+    {
+      "id": 10510,
+      "title": "media",
+      "value": "media"
+    }
+  ],
+  "categories": [
+    {
+      "id": 75,
+      "title": "Auto & Technique",
+      "permalink": "cars",
+      "subscriptions_count": 5624226,
+      "big_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/big_1545566648_Auto.png",
+      "small_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/small_1545566648_Auto.png",
+      "med_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/med_1545566648_Auto.png",
+      "visible": true
+    }
+  ],
+  "communities": [
+    {
+      "id": 75,
+      "title": "Auto & Technique",
+      "permalink": "cars",
+      "subscriptions_count": 5624226,
+      "big_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/big_1545566648_Auto.png",
+      "small_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/small_1545566648_Auto.png",
+      "med_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/med_1545566648_Auto.png",
+      "i_subscribed": true,
+      "community_notifications_enabled": null,
+      "description": null
+    }
+  ],
+  "recoubs_count": 9,
+  "remixes_count": 0,
+  "likes_count": 27,
+  "dislikes_count": 0,
+  "raw_video_id": "",
+  "uploaded_by_ios_app": false,
+  "uploaded_by_android_app": false,
+  "media_blocks": {
+    "uploaded_raw_videos": [],
+    "external_raw_videos": [],
+    "remixed_from_coubs": [
+      {
+        "id": 30522968,
+        "title": "Audi R8 | LibertyWalk",
+        "url": "https://coub.com/coubs/1og4hd/remix",
+        "image": "https://coubsecure-s.akamaihd.net/get/b193/p/media_block/cw_image/adbcb10d603/a6698ffba91a79df4bad4/video_1550344287_176nyv8_1550344273_00032.jpg",
+        "image_retina": "https://coubsecure-s.akamaihd.net/get/b193/p/media_block/cw_image/adbcb10d603/a6698ffba91a79df4bad4/video_retina_1550344287_176nyv8_1550344273_00032.jpg",
+        "meta": {
+          "duration": "10.0"
+        },
+        "duration": null,
+        "coub_channel_title": "BLACK CAT \ud83d\udc3e",
+        "coub_channel_permalink": "black-cat61",
+        "coub_views_count": 4200,
+        "coub_permalink": "1og4hd"
+      }
+    ]
+  },
+  "raw_video_thumbnail_url": "",
+  "raw_video_title": "",
+  "video_block_banned": false,
+  "duration": 10.0,
+  "promo_winner": false,
+  "promo_winner_recoubers": null,
+  "editorial_info": {},
+  "promo_hint": null,
+  "beeline_best_2014": null,
+  "from_web_editor": true,
+  "normalize_sound": false,
+  "normalize_change_allowed": true,
+  "best2015_addable": false,
+  "ahmad_promo": null,
+  "promo_data": null,
+  "audio_copyright_claim": null,
+  "ads_disabled": false,
+  "is_safe_for_ads": true
+}

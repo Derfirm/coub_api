@@ -12,9 +12,7 @@ def test_make(coub_api_auth, requests_mock, snapshot_factory):
 
 def test_make__failed(coub_api_auth, requests_mock):
     requests_mock.post(
-        f"/api/v2/recoubs",
-        json={"error": "validation failed Validation failed"},
-        status_code=422,
+        f"/api/v2/recoubs", json={"error": "Validation failed"}, status_code=422
     )
 
     with pytest.raises(requests.exceptions.HTTPError):
