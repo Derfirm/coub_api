@@ -18,6 +18,10 @@ Api-wrapper for coub.com
     :target: https://github.com/ambv/black
     :alt: Codestyle: Black
 
+.. image:: https://api.codacy.com/project/badge/Grade/47a10071a0d442c6b0827b7e80c55bde
+    :target: https://www.codacy.com/manual/Derfirm/coub_api
+    :alt: code quality badge
+
 Key Features
 ============
 - response are fully-annotated with pydantic_
