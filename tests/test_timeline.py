@@ -104,7 +104,7 @@ def test_me_liked(coub_api_auth, requests_mock, snapshot_factory):
 
 
 @pytest.mark.parametrize("feature_section", [FeaturedSection.NEWEST])
-def test_feature__section(coub_api, requests_mock, snapshot_factory, feature_section):
+def test_feature(coub_api, requests_mock, snapshot_factory, feature_section):
     requests_mock.get(
         "/api/v2/timeline/explore",
         json=snapshot_factory("api/v2/timeline/explore.json"),
