@@ -1,0 +1,310 @@
+{
+  "flag": null,
+  "abuses": null,
+  "recoubs_by_users_channels": null,
+  "favourite": false,
+  "promoted_id": null,
+  "recoub": null,
+  "like": null,
+  "dislike": null,
+  "in_my_best2015": false,
+  "id": 102030438,
+  "type": "Coub::Simple",
+  "permalink": "1oc8go",
+  "title": "666",
+  "visibility_type": "public",
+  "original_visibility_type": "public",
+  "channel_id": 90559,
+  "created_at": "2019-02-15T13:27:25Z",
+  "updated_at": "2019-07-18T16:31:10Z",
+  "is_done": true,
+  "views_count": 3999,
+  "cotd": null,
+  "cotd_at": null,
+  "visible_on_explore_root": false,
+  "visible_on_explore": false,
+  "featured": false,
+  "published": true,
+  "published_at": "2019-02-15T13:27:25Z",
+  "reversed": false,
+  "from_editor_v2": true,
+  "is_editable": true,
+  "original_sound": false,
+  "has_sound": false,
+  "recoub_to": null,
+  "file_versions": {
+    "html5": {
+      "video": {
+        "high": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b86/p/coub/simple/cw_file/f842f5b495d/fdad769ba38e851409a36/muted_mp4_big_size_1550237252_muted_big.mp4",
+          "size": 1804945
+        },
+        "med": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b86/p/coub/simple/cw_file/f842f5b495d/fdad769ba38e851409a36/muted_mp4_med_size_1550237252_muted_med.mp4",
+          "size": 936396
+        }
+      },
+      "audio": {
+        "high": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b86/p/coub/simple/cw_looped_audio/22be8cc9341/d6d6f1027272693f416b7/high_1550237289_high.mp3",
+          "size": 2587341
+        },
+        "med": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b86/p/coub/simple/cw_looped_audio/22be8cc9341/d6d6f1027272693f416b7/med_1550237289_med.mp3",
+          "size": 2008490
+        }
+      }
+    },
+    "mobile": {
+      "video": "https://coubsecure-s.akamaihd.net/get/b86/p/coub/simple/cw_file/f842f5b495d/fdad769ba38e851409a36/muted_mp4_med_size_1550237252_muted_med.mp4?mobile",
+      "audio": [
+        "https://coubsecure-s.akamaihd.net/get/b86/p/coub/simple/cw_looped_audio/22be8cc9341/d6d6f1027272693f416b7/med_m4a_1550237289_med.m4a",
+        "https://coubsecure-s.akamaihd.net/get/b86/p/coub/simple/cw_looped_audio/22be8cc9341/d6d6f1027272693f416b7/med_1550237289_med.mp3"
+      ]
+    },
+    "share": {
+      "default": null
+    }
+  },
+  "audio_versions": {
+    "template": "https://coubsecure-s.akamaihd.net/get/b206/p/audio_track/cw_normalized_copy/1fcbf36b2b6/dfedfbe126cdf07225180/mid_1550237275_normalized_1550237254_1l4yfed_edited.mp3",
+    "versions": [
+      "mid",
+      "low"
+    ],
+    "chunks": {
+      "template": "https://coubsecure-s.akamaihd.net/get/b206/p/audio_track/cw_normalized_copy/1fcbf36b2b6/dfedfbe126cdf07225180/mp3_%{version}_c%{chunk}_1550237275_normalized_1550237254_1l4yfed_edited.mp3",
+      "versions": [
+        "mid",
+        "low"
+      ],
+      "chunks": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  "image_versions": {
+    "template": "https://coubsecure-s.akamaihd.net/get/b86/p/coub/simple/cw_image/1d6a29f0fcb/7cddddd36907c01cd8b3d/%{version}_1550237305_00025.jpg",
+    "versions": [
+      "micro",
+      "tiny",
+      "age_restricted",
+      "ios_large",
+      "ios_mosaic",
+      "big",
+      "med",
+      "small",
+      "pinterest"
+    ]
+  },
+  "first_frame_versions": {
+    "template": "https://coubsecure-s.akamaihd.net/get/b86/p/coub/simple/cw_timeline_pic/75249f59e58/11df4ef14d83cf21f82e4/%{version}_1550237304_image.jpg",
+    "versions": [
+      "big",
+      "med",
+      "small",
+      "ios_large"
+    ]
+  },
+  "dimensions": {
+    "big": [
+      960,
+      648
+    ],
+    "med": [
+      640,
+      432
+    ]
+  },
+  "site_w_h": [
+    640,
+    432
+  ],
+  "page_w_h": [
+    640,
+    432
+  ],
+  "site_w_h_small": [
+    310,
+    209
+  ],
+  "size": [
+    960,
+    648
+  ],
+  "age_restricted": false,
+  "age_restricted_by_admin": false,
+  "not_safe_for_work": false,
+  "allow_reuse": false,
+  "dont_crop": false,
+  "banned": false,
+  "global_safe": true,
+  "audio_file_url": "https://coubsecure-s.akamaihd.net/get/b206/p/audio_track/cw_normalized_copy/1fcbf36b2b6/dfedfbe126cdf07225180/low_1550237275_normalized_1550237254_1l4yfed_edited.mp3",
+  "external_download": false,
+  "application": null,
+  "channel": {
+    "id": 90559,
+    "permalink": "mangyoku",
+    "title": "\ud835\udc0c\ud835\udc00\ud835\udc0d\ud835\udc06\ud835\udc18\ud835\udc0e\ud835\udc0a\ud835\udc14",
+    "description": "\ud835\udfde\ud835\udfde.\ud835\udfde",
+    "followers_count": 53,
+    "following_count": 28,
+    "avatar_versions": {
+      "template": "https://coubsecure-s.akamaihd.net/get/b204/p/channel/cw_avatar/0ef61bebcc9/b0893226ffdd162b927ef/%{version}_1550238862_filename.jpeg",
+      "versions": [
+        "medium",
+        "medium_2x",
+        "profile_pic",
+        "profile_pic_new",
+        "profile_pic_new_2x",
+        "tiny",
+        "tiny_2x",
+        "small",
+        "small_2x",
+        "ios_large",
+        "ios_small"
+      ]
+    },
+    "background_image": "https://coubsecure-s.akamaihd.net/get/b74/p/background/cw_banner_image/e59ebdbc56b/0da9509dcd884e118e217/big_channel_1471643007_1438156909_00039.jpg",
+    "coubs_count": 19,
+    "recoubs_count": 517
+  },
+  "file": null,
+  "picture": "https://coubsecure-s.akamaihd.net/get/b86/p/coub/simple/cw_image/1d6a29f0fcb/7cddddd36907c01cd8b3d/med_1550237305_00025.jpg",
+  "timeline_picture": "https://coubsecure-s.akamaihd.net/get/b86/p/coub/simple/cw_timeline_pic/75249f59e58/11df4ef14d83cf21f82e4/ios_large_1550237304_image.jpg",
+  "small_picture": "https://coubsecure-s.akamaihd.net/get/b86/p/coub/simple/cw_image/1d6a29f0fcb/7cddddd36907c01cd8b3d/ios_mosaic_1550237305_00025.jpg",
+  "sharing_picture": null,
+  "percent_done": 100,
+  "tags": [
+    {
+      "id": 893948,
+      "title": "drft",
+      "value": "drft"
+    },
+    {
+      "id": 14293,
+      "title": "jdm",
+      "value": "jdm"
+    },
+    {
+      "id": 6514,
+      "title": "japan",
+      "value": "japan"
+    },
+    {
+      "id": 32467,
+      "title": "white noise",
+      "value": "white%20noise"
+    },
+    {
+      "id": 313859,
+      "title": "phonk",
+      "value": "phonk"
+    },
+    {
+      "id": 31912,
+      "title": "memphis",
+      "value": "memphis"
+    },
+    {
+      "id": 8751,
+      "title": "666",
+      "value": "666"
+    },
+    {
+      "id": 4101,
+      "title": "fuckyou",
+      "value": "fuckyou"
+    }
+  ],
+  "categories": [
+    {
+      "id": 75,
+      "title": "Auto & Technique",
+      "permalink": "cars",
+      "subscriptions_count": 5624226,
+      "big_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/big_1545566648_Auto.png",
+      "small_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/small_1545566648_Auto.png",
+      "med_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/med_1545566648_Auto.png",
+      "visible": true
+    }
+  ],
+  "communities": [
+    {
+      "id": 75,
+      "title": "Auto & Technique",
+      "permalink": "cars",
+      "subscriptions_count": 5624226,
+      "big_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/big_1545566648_Auto.png",
+      "small_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/small_1545566648_Auto.png",
+      "med_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/med_1545566648_Auto.png",
+      "i_subscribed": true,
+      "community_notifications_enabled": null,
+      "description": null
+    }
+  ],
+  "recoubs_count": 5,
+  "remixes_count": 0,
+  "likes_count": 16,
+  "dislikes_count": 0,
+  "raw_video_id": "",
+  "uploaded_by_ios_app": false,
+  "uploaded_by_android_app": false,
+  "media_blocks": {
+    "uploaded_raw_videos": [],
+    "external_raw_videos": [],
+    "remixed_from_coubs": [
+      {
+        "id": 27473922,
+        "title": "White noise",
+        "url": "https://coub.com/coubs/1botbb/remix",
+        "image": "https://coubsecure-s.akamaihd.net/get/b89/p/media_block/cw_image/148f80a4885/7a06d61debd598e75286d/video_1532714190_1532714183_00002.jpg",
+        "image_retina": "https://coubsecure-s.akamaihd.net/get/b89/p/media_block/cw_image/148f80a4885/7a06d61debd598e75286d/video_retina_1532714190_1532714183_00002.jpg",
+        "meta": {
+          "duration": "0.32"
+        },
+        "duration": null,
+        "coub_channel_title": "Splices",
+        "coub_channel_permalink": "thesplices",
+        "coub_views_count": 4030,
+        "coub_permalink": "1botbb"
+      },
+      {
+        "id": 30475021,
+        "title": "JDM (Linkin Park X7)",
+        "url": "https://coub.com/coubs/1o7744/remix",
+        "image": "https://coubsecure-s.akamaihd.net/get/b162/p/media_block/cw_image/c58326e33ec/7b9500e5b7b5668e30e50/video_1550075739_fsrnba_1550075726_00027.jpg",
+        "image_retina": "https://coubsecure-s.akamaihd.net/get/b162/p/media_block/cw_image/c58326e33ec/7b9500e5b7b5668e30e50/video_retina_1550075739_fsrnba_1550075726_00027.jpg",
+        "meta": {
+          "duration": "8.6"
+        },
+        "duration": null,
+        "coub_channel_title": "AvtOperator",
+        "coub_channel_permalink": "avtoperator",
+        "coub_views_count": 646118,
+        "coub_permalink": "1o7744"
+      }
+    ]
+  },
+  "raw_video_thumbnail_url": "",
+  "raw_video_title": "",
+  "video_block_banned": false,
+  "duration": 7.8,
+  "promo_winner": false,
+  "promo_winner_recoubers": null,
+  "editorial_info": {},
+  "promo_hint": null,
+  "beeline_best_2014": null,
+  "from_web_editor": true,
+  "normalize_sound": true,
+  "normalize_change_allowed": true,
+  "best2015_addable": false,
+  "ahmad_promo": null,
+  "promo_data": null,
+  "audio_copyright_claim": null,
+  "ads_disabled": false,
+  "is_safe_for_ads": true
+}

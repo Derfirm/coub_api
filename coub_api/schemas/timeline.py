@@ -4,7 +4,7 @@ from pydantic import BaseModel
 
 from .coub import BigCoub
 
-__all__ = ("SectionTimeLineResponse", "TimeLineResponse")
+__all__ = ("SectionTimeLineResponse", "TimeLineResponse", "MyTimeLineResponse")
 
 
 class SectionTimeLineResponse(BaseModel):
@@ -20,3 +20,10 @@ class TimeLineResponse(BaseModel):
     per_page: int
     total_pages: int
     coubs: List[BigCoub]
+
+
+class MyTimeLineResponse(BaseModel):
+    page: int
+    per_page: int
+    total_pages: int
+    coubs: List[dict]  # TODO

@@ -1,5 +1,5 @@
-from coub_api.schemas.coub import BigCoub
-from .base import BaseConnector
+from coub_api.modules.base import BaseConnector
+from coub_api.schemas.coub import SchemalessBigCoub
 
 __all__ = ("Recoub",)
 
@@ -8,10 +8,13 @@ __all__ = ("Recoub",)
 class Recoub(BaseConnector):
     __slots__ = ()
 
+    # TODO
     def make(self, recoub_to_id: int, channel_id: int):
         url = self.build_url("/recoubs")
         params = {"recoub_to_id": recoub_to_id, "channel_id": channel_id}
-        return BigCoub(**self.authenticated_request("post", url, params=params))
+        return SchemalessBigCoub(
+            **self.authenticated_request("post", url, params=params)
+        )
 
     def delete(self, recoub_id: int, channel_id):
         url = self.build_url("/recoubs")

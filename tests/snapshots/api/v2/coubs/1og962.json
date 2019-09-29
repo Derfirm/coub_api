@@ -1,0 +1,330 @@
+{
+  "flag": null,
+  "abuses": null,
+  "recoubs_by_users_channels": null,
+  "favourite": false,
+  "promoted_id": null,
+  "recoub": null,
+  "like": null,
+  "dislike": null,
+  "in_my_best2015": false,
+  "id": 102217975,
+  "type": "Coub::Simple",
+  "permalink": "1og962",
+  "title": "VIBEAT SPEED JAZZ",
+  "visibility_type": "public",
+  "original_visibility_type": "public",
+  "channel_id": 1102252,
+  "created_at": "2019-02-16T19:46:55Z",
+  "updated_at": "2019-09-15T04:44:54Z",
+  "is_done": true,
+  "views_count": 5203,
+  "cotd": null,
+  "cotd_at": null,
+  "visible_on_explore_root": false,
+  "visible_on_explore": false,
+  "featured": false,
+  "published": true,
+  "published_at": "2019-02-16T19:46:55Z",
+  "reversed": false,
+  "from_editor_v2": true,
+  "is_editable": true,
+  "original_sound": false,
+  "has_sound": false,
+  "recoub_to": null,
+  "file_versions": {
+    "html5": {
+      "video": {
+        "high": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b160/p/coub/simple/cw_file/870e183f7c9/3625cd6a778d16f7830e6/muted_mp4_big_size_1550346423_muted_big.mp4",
+          "size": 2866035
+        },
+        "med": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b160/p/coub/simple/cw_file/870e183f7c9/3625cd6a778d16f7830e6/muted_mp4_med_size_1550346423_muted_med.mp4",
+          "size": 2866035
+        }
+      },
+      "audio": {
+        "high": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b160/p/coub/simple/cw_looped_audio/014ac28bb29/d4ce30523bfc8ca8f7878/high_1550346454_high.mp3",
+          "size": 4520150
+        },
+        "med": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b160/p/coub/simple/cw_looped_audio/014ac28bb29/d4ce30523bfc8ca8f7878/med_1550346454_med.mp3",
+          "size": 3483266
+        }
+      }
+    },
+    "mobile": {
+      "video": "https://coubsecure-s.akamaihd.net/get/b160/p/coub/simple/cw_file/870e183f7c9/3625cd6a778d16f7830e6/muted_mp4_med_size_1550346423_muted_med.mp4?mobile",
+      "audio": [
+        "https://coubsecure-s.akamaihd.net/get/b160/p/coub/simple/cw_looped_audio/014ac28bb29/d4ce30523bfc8ca8f7878/med_m4a_1550346454_med.m4a",
+        "https://coubsecure-s.akamaihd.net/get/b160/p/coub/simple/cw_looped_audio/014ac28bb29/d4ce30523bfc8ca8f7878/med_1550346454_med.mp3"
+      ]
+    },
+    "share": {
+      "default": null
+    }
+  },
+  "audio_versions": {
+    "template": "https://coubsecure-s.akamaihd.net/get/b160/p/audio_track/cw_file/a590b1cec32/d42f5366d4c74b770a8fd/mid_1550346427_1ci1714_edited.mp3",
+    "versions": [
+      "mid",
+      "low"
+    ],
+    "chunks": {
+      "template": "https://coubsecure-s.akamaihd.net/get/b160/p/audio_track/cw_file/a590b1cec32/d42f5366d4c74b770a8fd/mp3_%{version}_c%{chunk}_1550346427_1ci1714_edited.mp3",
+      "versions": [
+        "mid",
+        "low"
+      ],
+      "chunks": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  "image_versions": {
+    "template": "https://coubsecure-s.akamaihd.net/get/b160/p/coub/simple/cw_image/8df376d1526/f236e6fd2d0ca1f55d586/%{version}_1550346472_00032.jpg",
+    "versions": [
+      "micro",
+      "tiny",
+      "age_restricted",
+      "ios_large",
+      "ios_mosaic",
+      "big",
+      "med",
+      "small",
+      "pinterest"
+    ]
+  },
+  "first_frame_versions": {
+    "template": "https://coubsecure-s.akamaihd.net/get/b160/p/coub/simple/cw_timeline_pic/3b3bd633202/4f5b714794b11f10e8767/%{version}_1550346472_image.jpg",
+    "versions": [
+      "big",
+      "med",
+      "small",
+      "ios_large"
+    ]
+  },
+  "dimensions": {
+    "big": [
+      640,
+      640
+    ],
+    "med": [
+      640,
+      640
+    ]
+  },
+  "site_w_h": [
+    400,
+    400
+  ],
+  "page_w_h": [
+    400,
+    400
+  ],
+  "site_w_h_small": [
+    310,
+    310
+  ],
+  "size": [
+    640,
+    640
+  ],
+  "age_restricted": false,
+  "age_restricted_by_admin": false,
+  "not_safe_for_work": false,
+  "allow_reuse": false,
+  "dont_crop": false,
+  "banned": false,
+  "global_safe": true,
+  "audio_file_url": "https://coubsecure-s.akamaihd.net/get/b160/p/audio_track/cw_file/a590b1cec32/d42f5366d4c74b770a8fd/low_1550346427_1ci1714_edited.mp3",
+  "external_download": false,
+  "application": null,
+  "channel": {
+    "id": 1102252,
+    "permalink": "vibeat-live",
+    "title": "#VIBEAT LIVE ",
+    "description": "#vibeat #progressivespirit",
+    "followers_count": 66,
+    "following_count": 58,
+    "avatar_versions": {
+      "template": "https://coubsecure-s.akamaihd.net/get/b193/p/channel/cw_avatar/84d575e9be3/eedc42ce100b1521c1fbd/%{version}_1553538490_filename.jpeg",
+      "versions": [
+        "medium",
+        "medium_2x",
+        "profile_pic",
+        "profile_pic_new",
+        "profile_pic_new_2x",
+        "tiny",
+        "tiny_2x",
+        "small",
+        "small_2x",
+        "ios_large",
+        "ios_small"
+      ]
+    },
+    "background_image": "https://coubsecure-s.akamaihd.net/get/b185/p/background/cw_banner_image/666238d6769/d488df959a814a8616f04/big_channel_1551998542_1wp2s04_1551995344_00032.jpg",
+    "coubs_count": 74,
+    "recoubs_count": 303
+  },
+  "file": null,
+  "picture": "https://coubsecure-s.akamaihd.net/get/b160/p/coub/simple/cw_image/8df376d1526/f236e6fd2d0ca1f55d586/med_1550346472_00032.jpg",
+  "timeline_picture": "https://coubsecure-s.akamaihd.net/get/b160/p/coub/simple/cw_timeline_pic/3b3bd633202/4f5b714794b11f10e8767/ios_large_1550346472_image.jpg",
+  "small_picture": "https://coubsecure-s.akamaihd.net/get/b160/p/coub/simple/cw_image/8df376d1526/f236e6fd2d0ca1f55d586/ios_mosaic_1550346472_00032.jpg",
+  "sharing_picture": null,
+  "percent_done": 100,
+  "tags": [
+    {
+      "id": 14787,
+      "title": "ferrari",
+      "value": "ferrari"
+    },
+    {
+      "id": 14786,
+      "title": "porshe",
+      "value": "porshe"
+    },
+    {
+      "id": 1103,
+      "title": "speed",
+      "value": "speed"
+    },
+    {
+      "id": 4696069,
+      "title": "&300km/h",
+      "value": "&300km/h"
+    },
+    {
+      "id": 1579,
+      "title": "race",
+      "value": "race"
+    },
+    {
+      "id": 1359,
+      "title": "sport",
+      "value": "sport"
+    },
+    {
+      "id": 4075,
+      "title": "street",
+      "value": "street"
+    },
+    {
+      "id": 1173,
+      "title": "car",
+      "value": "car"
+    },
+    {
+      "id": 5730,
+      "title": "vs",
+      "value": "vs"
+    },
+    {
+      "id": 50,
+      "title": "coub",
+      "value": "coub"
+    },
+    {
+      "id": 4393129,
+      "title": "vibeat",
+      "value": "vibeat"
+    },
+    {
+      "id": 953,
+      "title": "jazz",
+      "value": "jazz"
+    },
+    {
+      "id": 939,
+      "title": "relax",
+      "value": "relax"
+    },
+    {
+      "id": 926,
+      "title": "take five",
+      "value": "take%20five"
+    },
+    {
+      "id": 60769,
+      "title": "dave brubeck",
+      "value": "dave%20brubeck"
+    }
+  ],
+  "categories": [
+    {
+      "id": 75,
+      "title": "Auto & Technique",
+      "permalink": "cars",
+      "subscriptions_count": 5624226,
+      "big_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/big_1545566648_Auto.png",
+      "small_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/small_1545566648_Auto.png",
+      "med_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/med_1545566648_Auto.png",
+      "visible": true
+    }
+  ],
+  "communities": [
+    {
+      "id": 75,
+      "title": "Auto & Technique",
+      "permalink": "cars",
+      "subscriptions_count": 5624226,
+      "big_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/big_1545566648_Auto.png",
+      "small_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/small_1545566648_Auto.png",
+      "med_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/med_1545566648_Auto.png",
+      "i_subscribed": true,
+      "community_notifications_enabled": null,
+      "description": null
+    }
+  ],
+  "recoubs_count": 12,
+  "remixes_count": 0,
+  "likes_count": 52,
+  "dislikes_count": 0,
+  "raw_video_id": "",
+  "uploaded_by_ios_app": true,
+  "uploaded_by_android_app": false,
+  "media_blocks": {
+    "uploaded_raw_videos": [],
+    "external_raw_videos": [],
+    "remixed_from_coubs": [
+      {
+        "id": 25356052,
+        "title": "Ferrari one love <3",
+        "url": "http://coub.com/coubs/14xqi4/remix",
+        "image": "https://coubsecure-s.akamaihd.net/get/b180/p/media_block/cw_image/7137bd8ac12/67151179e9b222539836b/video_1521204647_1521204589_00032.jpg",
+        "image_retina": "https://coubsecure-s.akamaihd.net/get/b180/p/media_block/cw_image/7137bd8ac12/67151179e9b222539836b/video_retina_1521204647_1521204589_00032.jpg",
+        "meta": {
+          "duration": "10.0"
+        },
+        "duration": null,
+        "coub_channel_title": "Ilya Yurgelevich",
+        "coub_channel_permalink": "ilya.yurgelevich",
+        "coub_views_count": 2594,
+        "coub_permalink": "14xqi4"
+      }
+    ]
+  },
+  "raw_video_thumbnail_url": "",
+  "raw_video_title": "",
+  "video_block_banned": false,
+  "duration": 10.0,
+  "promo_winner": false,
+  "promo_winner_recoubers": null,
+  "editorial_info": {},
+  "promo_hint": null,
+  "beeline_best_2014": null,
+  "from_web_editor": false,
+  "normalize_sound": false,
+  "normalize_change_allowed": true,
+  "best2015_addable": false,
+  "ahmad_promo": null,
+  "promo_data": null,
+  "audio_copyright_claim": null,
+  "ads_disabled": false,
+  "is_safe_for_ads": true
+}

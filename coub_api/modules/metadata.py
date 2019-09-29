@@ -1,7 +1,7 @@
 from typing import List, Optional
 
+from coub_api.modules.base import BaseConnector
 from coub_api.schemas.metadata import MetaResponse
-from .base import BaseConnector
 
 __all__ = ("MetaData",)
 

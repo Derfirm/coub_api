@@ -9,8 +9,8 @@ build/
 dist/
 .cache/
 *.egg-info
-poetry.lock
 .idea/
+.python-version
 # prevent commit any materials
 *.png
 *.jpg

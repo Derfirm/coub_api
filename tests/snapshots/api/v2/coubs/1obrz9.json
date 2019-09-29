@@ -1,0 +1,323 @@
+{
+  "flag": null,
+  "abuses": null,
+  "recoubs_by_users_channels": null,
+  "favourite": false,
+  "promoted_id": null,
+  "recoub": null,
+  "like": null,
+  "dislike": null,
+  "in_my_best2015": false,
+  "id": 102009075,
+  "type": "Coub::Simple",
+  "permalink": "1obrz9",
+  "title": "F1 2018 All Crashes",
+  "visibility_type": "public",
+  "original_visibility_type": "public",
+  "channel_id": 2230108,
+  "created_at": "2019-02-15T09:44:38Z",
+  "updated_at": "2019-08-12T05:39:07Z",
+  "is_done": true,
+  "views_count": 5594,
+  "cotd": null,
+  "cotd_at": null,
+  "visible_on_explore_root": false,
+  "visible_on_explore": false,
+  "featured": false,
+  "published": true,
+  "published_at": "2019-02-15T09:44:38Z",
+  "reversed": false,
+  "from_editor_v2": true,
+  "is_editable": true,
+  "original_sound": false,
+  "has_sound": false,
+  "recoub_to": null,
+  "file_versions": {
+    "html5": {
+      "video": {
+        "high": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b172/p/coub/simple/cw_file/e701d3f3a32/ab399613b02b0de214252/muted_mp4_big_size_1550223984_muted_big.mp4",
+          "size": 1783016
+        },
+        "med": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b172/p/coub/simple/cw_file/e701d3f3a32/ab399613b02b0de214252/muted_mp4_med_size_1550223984_muted_med.mp4",
+          "size": 611500
+        }
+      },
+      "audio": {
+        "high": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b172/p/coub/simple/cw_looped_audio/bf0495c1b9a/f7bc177d86aab39297f31/high_1550223991_high.mp3",
+          "size": 628380
+        },
+        "med": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b172/p/coub/simple/cw_looped_audio/bf0495c1b9a/f7bc177d86aab39297f31/med_1550223991_med.mp3",
+          "size": 522501
+        }
+      }
+    },
+    "mobile": {
+      "video": "https://coubsecure-s.akamaihd.net/get/b172/p/coub/simple/cw_file/e701d3f3a32/ab399613b02b0de214252/muted_mp4_med_size_1550223984_muted_med.mp4?mobile",
+      "audio": [
+        "https://coubsecure-s.akamaihd.net/get/b172/p/coub/simple/cw_looped_audio/bf0495c1b9a/f7bc177d86aab39297f31/med_m4a_1550223991_med.m4a",
+        "https://coubsecure-s.akamaihd.net/get/b172/p/coub/simple/cw_looped_audio/bf0495c1b9a/f7bc177d86aab39297f31/med_1550223991_med.mp3"
+      ]
+    },
+    "share": {
+      "default": null
+    }
+  },
+  "audio_versions": {
+    "template": "https://coubsecure-s.akamaihd.net/get/b172/p/audio_track/cw_normalized_copy/5afb8c54b21/f2f9798df2066f85a2bbe/mid_1550223989_normalized_1550223985_1w9cvxp_edited.mp3",
+    "versions": [
+      "mid",
+      "low"
+    ],
+    "chunks": {
+      "template": "https://coubsecure-s.akamaihd.net/get/b172/p/audio_track/cw_normalized_copy/5afb8c54b21/f2f9798df2066f85a2bbe/mp3_%{version}_c%{chunk}_1550223989_normalized_1550223985_1w9cvxp_edited.mp3",
+      "versions": [
+        "mid",
+        "low"
+      ],
+      "chunks": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  "image_versions": {
+    "template": "https://coubsecure-s.akamaihd.net/get/b172/p/coub/simple/cw_image/3bb06fd3bf3/c74ccad05bc3a667bbed3/%{version}_1550223996_00021.jpg",
+    "versions": [
+      "micro",
+      "tiny",
+      "age_restricted",
+      "ios_large",
+      "ios_mosaic",
+      "big",
+      "med",
+      "small",
+      "pinterest"
+    ]
+  },
+  "first_frame_versions": {
+    "template": "https://coubsecure-s.akamaihd.net/get/b172/p/coub/simple/cw_timeline_pic/bd8dce6b2b8/6b237287cdeb7d1d877b5/%{version}_1550223996_image.jpg",
+    "versions": [
+      "big",
+      "med",
+      "small",
+      "ios_large"
+    ]
+  },
+  "dimensions": {
+    "big": [
+      1280,
+      720
+    ],
+    "med": [
+      640,
+      360
+    ]
+  },
+  "site_w_h": [
+    640,
+    360
+  ],
+  "page_w_h": [
+    640,
+    360
+  ],
+  "site_w_h_small": [
+    310,
+    174
+  ],
+  "size": [
+    1280,
+    720
+  ],
+  "age_restricted": false,
+  "age_restricted_by_admin": false,
+  "not_safe_for_work": false,
+  "allow_reuse": false,
+  "dont_crop": false,
+  "banned": false,
+  "global_safe": true,
+  "audio_file_url": "https://coubsecure-s.akamaihd.net/get/b172/p/audio_track/cw_normalized_copy/5afb8c54b21/f2f9798df2066f85a2bbe/low_1550223989_normalized_1550223985_1w9cvxp_edited.mp3",
+  "external_download": {
+    "type": "Youtube",
+    "service_name": "YouTube",
+    "url": "https://youtu.be/TW3wQ3DFsZg",
+    "has_embed": true
+  },
+  "application": null,
+  "channel": {
+    "id": 2230108,
+    "permalink": "dmitrij-lobanov3",
+    "title": "\u0414\u043c\u0438\u0442\u0440\u0438\u0439 \u041b\u043e\u0431\u0430\u043d\u043e\u0432",
+    "description": null,
+    "followers_count": 4,
+    "following_count": 0,
+    "avatar_versions": {
+      "template": "https://coubsecure-s.akamaihd.net/get/b53/p/channel/cw_avatar/3f5f8029d6c/af1e1a87334960b32be90/%{version}_1481123915_Gq2zg16sdv8.jpg",
+      "versions": [
+        "medium",
+        "medium_2x",
+        "profile_pic",
+        "profile_pic_new",
+        "profile_pic_new_2x",
+        "tiny",
+        "tiny_2x",
+        "small",
+        "small_2x",
+        "ios_large",
+        "ios_small"
+      ]
+    },
+    "background_image": null,
+    "coubs_count": 7,
+    "recoubs_count": 85
+  },
+  "file": null,
+  "picture": "https://coubsecure-s.akamaihd.net/get/b172/p/coub/simple/cw_image/3bb06fd3bf3/c74ccad05bc3a667bbed3/med_1550223996_00021.jpg",
+  "timeline_picture": "https://coubsecure-s.akamaihd.net/get/b172/p/coub/simple/cw_timeline_pic/bd8dce6b2b8/6b237287cdeb7d1d877b5/ios_large_1550223996_image.jpg",
+  "small_picture": "https://coubsecure-s.akamaihd.net/get/b172/p/coub/simple/cw_image/3bb06fd3bf3/c74ccad05bc3a667bbed3/ios_mosaic_1550223996_00021.jpg",
+  "sharing_picture": null,
+  "percent_done": 100,
+  "tags": [
+    {
+      "id": 7649,
+      "title": "f1",
+      "value": "f1"
+    },
+    {
+      "id": 160293,
+      "title": "2018",
+      "value": "2018"
+    },
+    {
+      "id": 109,
+      "title": "crash",
+      "value": "crash"
+    },
+    {
+      "id": 20567,
+      "title": "huge",
+      "value": "huge"
+    },
+    {
+      "id": 2488,
+      "title": "win",
+      "value": "win"
+    },
+    {
+      "id": 1173,
+      "title": "car",
+      "value": "car"
+    },
+    {
+      "id": 38430,
+      "title": "formula 1",
+      "value": "formula%201"
+    },
+    {
+      "id": 3873,
+      "title": "hello",
+      "value": "hello"
+    },
+    {
+      "id": 154652,
+      "title": "pit stop",
+      "value": "pit%20stop"
+    },
+    {
+      "id": 4013,
+      "title": "spin",
+      "value": "spin"
+    }
+  ],
+  "categories": [
+    {
+      "id": 75,
+      "title": "Auto & Technique",
+      "permalink": "cars",
+      "subscriptions_count": 5624226,
+      "big_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/big_1545566648_Auto.png",
+      "small_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/small_1545566648_Auto.png",
+      "med_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/med_1545566648_Auto.png",
+      "visible": true
+    }
+  ],
+  "communities": [
+    {
+      "id": 75,
+      "title": "Auto & Technique",
+      "permalink": "cars",
+      "subscriptions_count": 5624226,
+      "big_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/big_1545566648_Auto.png",
+      "small_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/small_1545566648_Auto.png",
+      "med_image_url": "https://coubsecure-s.akamaihd.net/get/b126/p/category/cw_image/dcda24f72f3/076e0f1bc1028aa643b02/med_1545566648_Auto.png",
+      "i_subscribed": true,
+      "community_notifications_enabled": null,
+      "description": null
+    }
+  ],
+  "recoubs_count": 3,
+  "remixes_count": 0,
+  "likes_count": 21,
+  "dislikes_count": 0,
+  "raw_video_id": 13220339,
+  "uploaded_by_ios_app": false,
+  "uploaded_by_android_app": false,
+  "media_blocks": {
+    "uploaded_raw_videos": [],
+    "external_raw_videos": [
+      {
+        "id": 30499169,
+        "title": "F1 2018 All Crashes",
+        "url": "https://www.youtube.com/watch?v=TW3wQ3DFsZg",
+        "image": "https://coubsecure-s.akamaihd.net/get/b179/p/media_block/cw_image/868af76308c/420d587a6458bc38cf655/video_1550222081_1uf6n0s_1550221905_319aca_att-url-download.jpg",
+        "image_retina": "https://coubsecure-s.akamaihd.net/get/b179/p/media_block/cw_image/868af76308c/420d587a6458bc38cf655/video_retina_1550222081_1uf6n0s_1550221905_319aca_att-url-download.jpg",
+        "meta": {
+          "service": "Youtube",
+          "duration": "1051.12"
+        },
+        "duration": 1051.12,
+        "raw_video_id": 13220339,
+        "has_embed": true
+      }
+    ],
+    "remixed_from_coubs": [],
+    "external_video": {
+      "id": 30499169,
+      "title": "F1 2018 All Crashes",
+      "url": "https://www.youtube.com/watch?v=TW3wQ3DFsZg",
+      "image": "https://coubsecure-s.akamaihd.net/get/b179/p/media_block/cw_image/868af76308c/420d587a6458bc38cf655/video_1550222081_1uf6n0s_1550221905_319aca_att-url-download.jpg",
+      "image_retina": "https://coubsecure-s.akamaihd.net/get/b179/p/media_block/cw_image/868af76308c/420d587a6458bc38cf655/video_retina_1550222081_1uf6n0s_1550221905_319aca_att-url-download.jpg",
+      "meta": {
+        "service": "Youtube",
+        "duration": "1051.12"
+      },
+      "duration": 1051.12,
+      "raw_video_id": 13220339,
+      "has_embed": true
+    }
+  },
+  "raw_video_thumbnail_url": "/missing/missing.png",
+  "raw_video_title": "F1 2018 All Crashes",
+  "video_block_banned": false,
+  "duration": 6.56,
+  "promo_winner": false,
+  "promo_winner_recoubers": null,
+  "editorial_info": {},
+  "promo_hint": null,
+  "beeline_best_2014": null,
+  "from_web_editor": true,
+  "normalize_sound": true,
+  "normalize_change_allowed": true,
+  "best2015_addable": false,
+  "ahmad_promo": null,
+  "promo_data": null,
+  "audio_copyright_claim": null,
+  "ads_disabled": false,
+  "is_safe_for_ads": true
+}

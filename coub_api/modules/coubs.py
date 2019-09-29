@@ -1,18 +1,39 @@
 from typing import List
 
+from coub_api.modules.base import TmpBaseConnector, connector_return_type
 from coub_api.schemas.coub import BigCoub
 from coub_api.schemas.constants import VisibilityType
-from .base import BaseConnector
 
 __all__ = ("Coubs",)
 
 
-class Coubs(BaseConnector):
+class Coubs(TmpBaseConnector):
     __slots__ = ()
 
-    def get_coub(self, coub_id: str) -> BigCoub:
+    def _get_coub_response(self, coub_id: str) -> connector_return_type:
         url = self.build_url(f"/coubs/{coub_id}")
-        return BigCoub(**self.request("get", url))
+        return self.request("get", url)
+
+    def get_coub(self, coub_id: str) -> BigCoub:
+        return BigCoub(**self._get_coub_response(coub_id).json())
+
+    def _edit_coub_response(
+        self,
+        coub_permalink: str,
+        channel_id: int,
+        *,
+        title: str,
+        tags: List[str],
+        visibility_type: VisibilityType,
+    ) -> connector_return_type:
+        url = self.build_url(f"/coubs/{coub_permalink}/update_info")
+        params = {
+            "coub[channel_id]": channel_id,
+            "coub[title]": title,
+            "coub[tags]": ",".join(tags),
+            "coub[original_visibility_type]": visibility_type,
+        }
+        return self.authenticated_request("post", url, params=params)
 
     def edit_coub(
         self,
@@ -23,15 +44,14 @@ class Coubs(BaseConnector):
         tags: List[str],
         visibility_type: VisibilityType = VisibilityType.PRIVATE,
     ) -> BigCoub:
-        url = self.build_url(f"/coubs/{coub_permalink}/update_info")
-        params = {
-            "coub[channel_id]": channel_id,
-            "coub[title]": title,
-            "coub[tags]": ",".join(tags),
-            "coub[original_visibility_type]": visibility_type,
-        }
-        response = self.authenticated_request("post", url, params=params)
-        return BigCoub(**response)
+        data = self._edit_coub_response(
+            coub_permalink,
+            channel_id,
+            title=title,
+            tags=tags,
+            visibility_type=visibility_type,
+        )
+        return BigCoub(**data.json())
 
     def delete_coub(self, coub_permalink: str):
         raise NotImplementedError
@@ -39,7 +59,7 @@ class Coubs(BaseConnector):
     # see https://coub.com/dev/docs/Coub+API%2FCreating+coub
     def init_upload(self):
         url = self.build_url("/coubs/init_upload")
-        return self.authenticated_request("post", url)
+        return self.authenticated_request("post", url).json()
 
     def upload_video(
         self, coub_id: int, video_path: str, content_type: str = "video/mp4"
@@ -50,7 +70,7 @@ class Coubs(BaseConnector):
         headers = {"Content-type": content_type}
         return self.authenticated_request(
             "post", url, data=open(video_path, "rb"), headers=headers
-        )
+        ).json()
 
     def upload_audio(
         self, coub_id: int, audio_path: str, content_type: str = "audio/mpeg"
@@ -61,7 +81,7 @@ class Coubs(BaseConnector):
         url = self.build_url(f"/coubs/{coub_id}/upload_audio")
         return self.authenticated_request(
             "post", url, data=open(audio_path, "rb"), headers=headers
-        )
+        ).json()
 
     def finalize_upload(
         self,
@@ -79,8 +99,8 @@ class Coubs(BaseConnector):
             "original_visibility_type": visibility_type,
             "tags": ",".join(tags),
         }
-        return self.authenticated_request("post", url, params=params)
+        return self.authenticated_request("post", url, params=params).json()
 
     def get_upload_status(self, coub_id: int):
         url = self.build_url(f"/coubs/{coub_id}/finalize_status")
-        return self.authenticated_request("get", url)
+        return self.authenticated_request("get", url).json()

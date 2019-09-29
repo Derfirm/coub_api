@@ -2,8 +2,7 @@ import pytest
 import requests
 
 
-def test_get_coub(coub_api, requests_mock, snapshot_factory):
-    coub_permalink = "1gkd7u"
+def test_get_coub(coub_api, requests_mock, snapshot_factory, coub_permalink):
     requests_mock.get(
         f"/api/v2/coubs/{coub_permalink}",
         json=snapshot_factory(f"api/v2/coubs/{coub_permalink}.json"),
@@ -112,8 +111,7 @@ def test_get_status__not_found(coub_api_auth, requests_mock):
         coub_api_auth.coubs.get_upload_status(1)
 
 
-def test_edit_coub(coub_api_auth, requests_mock, snapshot_factory):
-    coub_permalink = "1kj8z2"
+def test_edit_coub(coub_api_auth, requests_mock, snapshot_factory, coub_permalink):
     channel_id = 313_669
     requests_mock.post(
         f"/api/v2/coubs/{coub_permalink}/update_info",

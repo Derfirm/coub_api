@@ -5,6 +5,8 @@ from functools import lru_cache
 import pytest
 
 from coub_api import CoubApi
+from tests import _BASE_PATH  # noqa
+from tools.utils import extract_params_from_file
 
 
 @pytest.fixture
@@ -31,7 +33,7 @@ def coub_api_auth(coub_api: CoubApi, token: str) -> CoubApi:
 
 @pytest.fixture
 def snapshot_factory():
-    base_path = Path("tests/snapshots")
+    base_path = _BASE_PATH / "snapshots"
 
     @lru_cache(maxsize=None)
     def get_snapshot(path: str):
@@ -39,3 +41,33 @@ def snapshot_factory():
             return json.load(f)
 
     return get_snapshot
+
+
+@pytest.fixture(
+    params=extract_params_from_file(_BASE_PATH / "snapshots/config.json", "coubs_list")
+)
+def coub_permalink(request):
+    return request.param
+
+
+@pytest.fixture(
+    params=extract_params_from_file(
+        _BASE_PATH / "snapshots/config.json", "channels_list"
+    )
+)
+def channel_id(request):
+    return request.param
+
+
+@pytest.fixture(
+    params=extract_params_from_file(_BASE_PATH / "snapshots/config.json", "tag_list")
+)
+def tag_name(request):
+    return request.param
+
+
+@pytest.fixture(
+    params=extract_params_from_file(_BASE_PATH / "snapshots/config.json", "search_list")
+)
+def search_q(request):
+    return request.param

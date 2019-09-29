@@ -1,0 +1,258 @@
+{
+  "flag": null,
+  "abuses": null,
+  "recoubs_by_users_channels": null,
+  "favourite": false,
+  "promoted_id": null,
+  "recoub": null,
+  "like": null,
+  "dislike": null,
+  "in_my_best2015": false,
+  "id": 124351284,
+  "type": "Coub::Simple",
+  "permalink": "21n2wj",
+  "title": "\u27a4",
+  "visibility_type": "public",
+  "original_visibility_type": "public",
+  "channel_id": 4764844,
+  "created_at": "2019-09-22T17:13:53Z",
+  "updated_at": "2019-09-29T11:51:08Z",
+  "is_done": true,
+  "views_count": 18901,
+  "cotd": null,
+  "cotd_at": null,
+  "visible_on_explore_root": false,
+  "visible_on_explore": false,
+  "featured": false,
+  "published": true,
+  "published_at": "2019-09-27T04:32:33Z",
+  "reversed": false,
+  "from_editor_v2": true,
+  "is_editable": true,
+  "original_sound": false,
+  "has_sound": false,
+  "recoub_to": null,
+  "file_versions": {
+    "html5": {
+      "video": {
+        "higher": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b157/p/coub/simple/cw_file/cdb79c280d1/960393b0b3769919595d5/muted_mp4_huge_size_1569172435_muted_huge.mp4",
+          "size": 120305
+        },
+        "high": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b157/p/coub/simple/cw_file/cdb79c280d1/960393b0b3769919595d5/muted_mp4_big_size_1569172435_muted_big.mp4",
+          "size": 109024
+        },
+        "med": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b157/p/coub/simple/cw_file/cdb79c280d1/960393b0b3769919595d5/muted_mp4_med_size_1569172435_muted_med.mp4",
+          "size": 52009
+        }
+      },
+      "audio": {
+        "high": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b63/p/coub/simple/cw_looped_audio/d0ef6bef147/fcf58c9047bee496c538d/high_1569172484_high.mp3",
+          "size": 5876489
+        },
+        "med": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b63/p/coub/simple/cw_looped_audio/d0ef6bef147/fcf58c9047bee496c538d/med_1569172484_med.mp3",
+          "size": 4166664
+        }
+      }
+    },
+    "mobile": {
+      "video": "https://coubsecure-s.akamaihd.net/get/b157/p/coub/simple/cw_file/cdb79c280d1/960393b0b3769919595d5/muted_mp4_med_size_1569172435_muted_med.mp4?mobile",
+      "audio": [
+        "https://coubsecure-s.akamaihd.net/get/b63/p/coub/simple/cw_looped_audio/d0ef6bef147/fcf58c9047bee496c538d/med_m4a_1569172484_med.m4a",
+        "https://coubsecure-s.akamaihd.net/get/b63/p/coub/simple/cw_looped_audio/d0ef6bef147/fcf58c9047bee496c538d/med_1569172484_med.mp3"
+      ]
+    },
+    "share": {
+      "default": "https://coubsecure-s.akamaihd.net/get/b2/p/coub/simple/cw_video_for_sharing/dcf3bd220df/42d911b2f867241e628ff/1569172516_looped_1569172514.mp4"
+    }
+  },
+  "audio_versions": {
+    "template": "https://coubsecure-s.akamaihd.net/get/b169/p/audio_track/cw_file/5d35fe6c3d3/79f0bfb3841f5091c2aa8/mid_1569172444_1nffg11_edited.mp3",
+    "versions": [
+      "mid",
+      "low"
+    ],
+    "chunks": {
+      "template": "https://coubsecure-s.akamaihd.net/get/b169/p/audio_track/cw_file/5d35fe6c3d3/79f0bfb3841f5091c2aa8/mp3_%{version}_c%{chunk}_1569172444_1nffg11_edited.mp3",
+      "versions": [
+        "mid",
+        "low"
+      ],
+      "chunks": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  "image_versions": {
+    "template": "https://coubsecure-s.akamaihd.net/get/b166/p/coub/simple/cw_image/1b20cff2592/c5c16f2cad7f0c17d395d/%{version}_1569172502_00010.jpg",
+    "versions": [
+      "micro",
+      "tiny",
+      "age_restricted",
+      "ios_large",
+      "ios_mosaic",
+      "big",
+      "med",
+      "small",
+      "pinterest"
+    ]
+  },
+  "first_frame_versions": {
+    "template": "https://coubsecure-s.akamaihd.net/get/b126/p/coub/simple/cw_timeline_pic/1880e2b945f/afad15ebd2577d57ed77a/%{version}_1569172502_image.jpg",
+    "versions": [
+      "big",
+      "med",
+      "small",
+      "ios_large"
+    ]
+  },
+  "dimensions": {
+    "big": [
+      1280,
+      960
+    ],
+    "med": [
+      640,
+      480
+    ]
+  },
+  "site_w_h": [
+    640,
+    480
+  ],
+  "page_w_h": [
+    640,
+    480
+  ],
+  "site_w_h_small": [
+    310,
+    233
+  ],
+  "size": [
+    1280,
+    960
+  ],
+  "age_restricted": false,
+  "age_restricted_by_admin": false,
+  "not_safe_for_work": false,
+  "allow_reuse": false,
+  "dont_crop": false,
+  "banned": false,
+  "global_safe": true,
+  "audio_file_url": "https://coubsecure-s.akamaihd.net/get/b169/p/audio_track/cw_file/5d35fe6c3d3/79f0bfb3841f5091c2aa8/low_1569172444_1nffg11_edited.mp3",
+  "external_download": false,
+  "application": null,
+  "channel": {
+    "id": 4764844,
+    "permalink": "--rane--",
+    "title": "Rane",
+    "description": null,
+    "followers_count": 182,
+    "following_count": 0,
+    "avatar_versions": {
+      "template": "https://coubsecure-s.akamaihd.net/get/b100/p/channel/cw_avatar/4d1f584d336/986ca7860cc5cdb5c7b77/%{version}_1568526659_greedfall_2019-09-14.jpg",
+      "versions": [
+        "medium",
+        "medium_2x",
+        "profile_pic",
+        "profile_pic_new",
+        "profile_pic_new_2x",
+        "tiny",
+        "tiny_2x",
+        "small",
+        "small_2x",
+        "ios_large",
+        "ios_small"
+      ]
+    },
+    "background_image": "https://coubsecure-s.akamaihd.net/get/b184/p/background/cw_banner_image/a92a539ff52/9fe59206321c7ae318e7d/big_channel_1568526653_4arob7_1568526627_uhjsr9_1568526627_greedfall_2019-09-14.jpg",
+    "coubs_count": 224,
+    "recoubs_count": 1
+  },
+  "file": null,
+  "picture": "https://coubsecure-s.akamaihd.net/get/b166/p/coub/simple/cw_image/1b20cff2592/c5c16f2cad7f0c17d395d/med_1569172502_00010.jpg",
+  "timeline_picture": "https://coubsecure-s.akamaihd.net/get/b126/p/coub/simple/cw_timeline_pic/1880e2b945f/afad15ebd2577d57ed77a/ios_large_1569172502_image.jpg",
+  "small_picture": "https://coubsecure-s.akamaihd.net/get/b166/p/coub/simple/cw_image/1b20cff2592/c5c16f2cad7f0c17d395d/ios_mosaic_1569172502_00010.jpg",
+  "sharing_picture": null,
+  "percent_done": 100,
+  "tags": [
+    {
+      "id": 421,
+      "title": "gif",
+      "value": "gif"
+    },
+    {
+      "id": 86,
+      "title": "music",
+      "value": "music"
+    },
+    {
+      "id": 5221941,
+      "title": "johan borjesson -es expanding",
+      "value": "johan%20borjesson%20-es%20expanding"
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "title": "Art & Design",
+      "permalink": "art",
+      "subscriptions_count": 5628178,
+      "big_image_url": "https://coubsecure-s.akamaihd.net/get/b191/p/category/cw_image/bc49636b5e9/9d819c4215f13ccf07a7b/big_1544749302_art2.png",
+      "small_image_url": "https://coubsecure-s.akamaihd.net/get/b191/p/category/cw_image/bc49636b5e9/9d819c4215f13ccf07a7b/small_1544749302_art2.png",
+      "med_image_url": "https://coubsecure-s.akamaihd.net/get/b191/p/category/cw_image/bc49636b5e9/9d819c4215f13ccf07a7b/med_1544749302_art2.png",
+      "visible": true
+    }
+  ],
+  "communities": [
+    {
+      "id": 2,
+      "title": "Art & Design",
+      "permalink": "art",
+      "subscriptions_count": 5628178,
+      "big_image_url": "https://coubsecure-s.akamaihd.net/get/b191/p/category/cw_image/bc49636b5e9/9d819c4215f13ccf07a7b/big_1544749302_art2.png",
+      "small_image_url": "https://coubsecure-s.akamaihd.net/get/b191/p/category/cw_image/bc49636b5e9/9d819c4215f13ccf07a7b/small_1544749302_art2.png",
+      "med_image_url": "https://coubsecure-s.akamaihd.net/get/b191/p/category/cw_image/bc49636b5e9/9d819c4215f13ccf07a7b/med_1544749302_art2.png",
+      "i_subscribed": true,
+      "community_notifications_enabled": null,
+      "description": null
+    }
+  ],
+  "recoubs_count": 27,
+  "remixes_count": 0,
+  "likes_count": 122,
+  "dislikes_count": 0,
+  "raw_video_id": 14255087,
+  "uploaded_by_ios_app": false,
+  "uploaded_by_android_app": false,
+  "media_blocks": {
+    "uploaded_raw_videos": [],
+    "external_raw_videos": [],
+    "remixed_from_coubs": []
+  },
+  "raw_video_thumbnail_url": "/missing/missing.png",
+  "raw_video_title": "JdHm.gif",
+  "video_block_banned": false,
+  "duration": 3.0,
+  "promo_winner": false,
+  "promo_winner_recoubers": null,
+  "editorial_info": {},
+  "promo_hint": null,
+  "beeline_best_2014": null,
+  "from_web_editor": true,
+  "normalize_sound": false,
+  "normalize_change_allowed": true,
+  "best2015_addable": false,
+  "ahmad_promo": null,
+  "promo_data": null,
+  "audio_copyright_claim": null,
+  "ads_disabled": false,
+  "is_safe_for_ads": true
+}

@@ -1,4 +1,4 @@
-from .base import BaseConnector
+from coub_api.modules.base import BaseConnector
 
 __all__ = ("Follow",)
 

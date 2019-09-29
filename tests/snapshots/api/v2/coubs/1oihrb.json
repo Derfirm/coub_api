@@ -1,0 +1,318 @@
+{
+  "flag": null,
+  "abuses": null,
+  "recoubs_by_users_channels": null,
+  "favourite": false,
+  "promoted_id": null,
+  "recoub": null,
+  "like": null,
+  "dislike": null,
+  "in_my_best2015": false,
+  "id": 102322420,
+  "type": "Coub::Simple",
+  "permalink": "1oihrb",
+  "title": "MIME SKILLS 3 | POPPIN JOHN",
+  "visibility_type": "public",
+  "original_visibility_type": "public",
+  "channel_id": 1958390,
+  "created_at": "2019-02-17T15:21:20Z",
+  "updated_at": "2019-07-18T16:34:31Z",
+  "is_done": true,
+  "views_count": 10647,
+  "cotd": null,
+  "cotd_at": null,
+  "visible_on_explore_root": false,
+  "visible_on_explore": false,
+  "featured": false,
+  "published": true,
+  "published_at": "2019-02-17T15:21:20Z",
+  "reversed": true,
+  "from_editor_v2": true,
+  "is_editable": true,
+  "original_sound": false,
+  "has_sound": false,
+  "recoub_to": null,
+  "file_versions": {
+    "html5": {
+      "video": {
+        "high": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b164/p/coub/simple/cw_file/93f13119c94/403a63094a0fe93f82f16/muted_mp4_big_size_1550416923_muted_big.mp4",
+          "size": 3943090
+        },
+        "med": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b164/p/coub/simple/cw_file/93f13119c94/403a63094a0fe93f82f16/muted_mp4_med_size_1550416923_muted_med.mp4",
+          "size": 1151290
+        }
+      },
+      "audio": {
+        "high": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b192/p/coub/simple/cw_looped_audio/c03b004e3f3/1045898aedb01cf515979/high_1550416962_high.mp3",
+          "size": 3208507
+        },
+        "med": {
+          "url": "https://coubsecure-s.akamaihd.net/get/b192/p/coub/simple/cw_looped_audio/c03b004e3f3/1045898aedb01cf515979/med_1550416962_med.mp3",
+          "size": 2454515
+        }
+      }
+    },
+    "mobile": {
+      "video": "https://coubsecure-s.akamaihd.net/get/b164/p/coub/simple/cw_file/93f13119c94/403a63094a0fe93f82f16/muted_mp4_med_size_1550416923_muted_med.mp4?mobile",
+      "audio": [
+        "https://coubsecure-s.akamaihd.net/get/b192/p/coub/simple/cw_looped_audio/c03b004e3f3/1045898aedb01cf515979/med_m4a_1550416962_med.m4a",
+        "https://coubsecure-s.akamaihd.net/get/b192/p/coub/simple/cw_looped_audio/c03b004e3f3/1045898aedb01cf515979/med_1550416962_med.mp3"
+      ]
+    },
+    "share": {
+      "default": null
+    }
+  },
+  "audio_versions": {
+    "template": "https://coubsecure-s.akamaihd.net/get/b164/p/audio_track/cw_normalized_copy/04af16c8b11/1ed10ab6c941948b158b4/mid_1550416950_normalized_1550416928_8vuov4_edited.mp3",
+    "versions": [
+      "mid",
+      "low"
+    ],
+    "chunks": {
+      "template": "https://coubsecure-s.akamaihd.net/get/b164/p/audio_track/cw_normalized_copy/04af16c8b11/1ed10ab6c941948b158b4/mp3_%{version}_c%{chunk}_1550416950_normalized_1550416928_8vuov4_edited.mp3",
+      "versions": [
+        "mid",
+        "low"
+      ],
+      "chunks": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  "image_versions": {
+    "template": "https://coubsecure-s.akamaihd.net/get/b164/p/coub/simple/cw_image/aad42e7a29d/f8b19480b8a14e3d0f082/%{version}_1550416978_00060.jpg",
+    "versions": [
+      "micro",
+      "tiny",
+      "age_restricted",
+      "ios_large",
+      "ios_mosaic",
+      "big",
+      "med",
+      "small",
+      "pinterest"
+    ]
+  },
+  "first_frame_versions": {
+    "template": "https://coubsecure-s.akamaihd.net/get/b164/p/coub/simple/cw_timeline_pic/16570e33814/142915d166c60099d3809/%{version}_1550416977_image.jpg",
+    "versions": [
+      "big",
+      "med",
+      "small",
+      "ios_large"
+    ]
+  },
+  "dimensions": {
+    "big": [
+      1280,
+      720
+    ],
+    "med": [
+      640,
+      360
+    ]
+  },
+  "site_w_h": [
+    640,
+    360
+  ],
+  "page_w_h": [
+    640,
+    360
+  ],
+  "site_w_h_small": [
+    310,
+    174
+  ],
+  "size": [
+    1280,
+    720
+  ],
+  "age_restricted": false,
+  "age_restricted_by_admin": false,
+  "not_safe_for_work": false,
+  "allow_reuse": false,
+  "dont_crop": false,
+  "banned": false,
+  "global_safe": true,
+  "audio_file_url": "https://coubsecure-s.akamaihd.net/get/b164/p/audio_track/cw_normalized_copy/04af16c8b11/1ed10ab6c941948b158b4/low_1550416950_normalized_1550416928_8vuov4_edited.mp3",
+  "external_download": {
+    "type": "Youtube",
+    "service_name": "YouTube",
+    "url": "https://www.youtube.com/watch?v=0-IGEWEZHn8",
+    "has_embed": true
+  },
+  "application": null,
+  "channel": {
+    "id": 1958390,
+    "permalink": "sergzhiga",
+    "title": "Serg_Zhiga",
+    "description": null,
+    "followers_count": 45,
+    "following_count": 6,
+    "avatar_versions": {
+      "template": "https://coubsecure-s.akamaihd.net/get/b160/p/channel/cw_avatar/4483901b93e/391de47d416984570a476/%{version}_1550316105_597957.jpg",
+      "versions": [
+        "medium",
+        "medium_2x",
+        "profile_pic",
+        "profile_pic_new",
+        "profile_pic_new_2x",
+        "tiny",
+        "tiny_2x",
+        "small",
+        "small_2x",
+        "ios_large",
+        "ios_small"
+      ]
+    },
+    "background_image": "https://coubsecure-s.akamaihd.net/get/b190/p/background/cw_banner_image/ae52718b48a/a66503e1efe942debd5e1/big_channel_1550773880_hckwv4_1550773870_3odm3d_1550773472_00063.jpg",
+    "coubs_count": 60,
+    "recoubs_count": 0
+  },
+  "file": null,
+  "picture": "https://coubsecure-s.akamaihd.net/get/b164/p/coub/simple/cw_image/aad42e7a29d/f8b19480b8a14e3d0f082/med_1550416978_00060.jpg",
+  "timeline_picture": "https://coubsecure-s.akamaihd.net/get/b164/p/coub/simple/cw_timeline_pic/16570e33814/142915d166c60099d3809/ios_large_1550416977_image.jpg",
+  "small_picture": "https://coubsecure-s.akamaihd.net/get/b164/p/coub/simple/cw_image/aad42e7a29d/f8b19480b8a14e3d0f082/ios_mosaic_1550416978_00060.jpg",
+  "sharing_picture": null,
+  "percent_done": 100,
+  "tags": [
+    {
+      "id": 56063,
+      "title": "poppin john",
+      "value": "poppin%20john"
+    },
+    {
+      "id": 239,
+      "title": "robot",
+      "value": "robot"
+    },
+    {
+      "id": 182,
+      "title": "dance",
+      "value": "dance"
+    },
+    {
+      "id": 559,
+      "title": "dubstep",
+      "value": "dubstep"
+    },
+    {
+      "id": 194769,
+      "title": "soulbotics krew",
+      "value": "soulbotics%20krew"
+    },
+    {
+      "id": 857343,
+      "title": "xcel talent",
+      "value": "xcel%20talent"
+    },
+    {
+      "id": 424,
+      "title": "animation",
+      "value": "animation"
+    },
+    {
+      "id": 72491,
+      "title": "sbk",
+      "value": "sbk"
+    },
+    {
+      "id": 1126,
+      "title": "amazing",
+      "value": "amazing"
+    }
+  ],
+  "categories": [
+    {
+      "id": 77,
+      "title": "Dance",
+      "permalink": "dance",
+      "subscriptions_count": 5626010,
+      "big_image_url": "https://coubsecure-s.akamaihd.net/get/b129/p/category/cw_image/d7afb96f274/3e8dad0b674f8605556f2/big_1545567838_Dance.png",
+      "small_image_url": "https://coubsecure-s.akamaihd.net/get/b129/p/category/cw_image/d7afb96f274/3e8dad0b674f8605556f2/small_1545567838_Dance.png",
+      "med_image_url": "https://coubsecure-s.akamaihd.net/get/b129/p/category/cw_image/d7afb96f274/3e8dad0b674f8605556f2/med_1545567838_Dance.png",
+      "visible": true
+    }
+  ],
+  "communities": [
+    {
+      "id": 77,
+      "title": "Dance",
+      "permalink": "dance",
+      "subscriptions_count": 5626010,
+      "big_image_url": "https://coubsecure-s.akamaihd.net/get/b129/p/category/cw_image/d7afb96f274/3e8dad0b674f8605556f2/big_1545567838_Dance.png",
+      "small_image_url": "https://coubsecure-s.akamaihd.net/get/b129/p/category/cw_image/d7afb96f274/3e8dad0b674f8605556f2/small_1545567838_Dance.png",
+      "med_image_url": "https://coubsecure-s.akamaihd.net/get/b129/p/category/cw_image/d7afb96f274/3e8dad0b674f8605556f2/med_1545567838_Dance.png",
+      "i_subscribed": true,
+      "community_notifications_enabled": null,
+      "description": null
+    }
+  ],
+  "recoubs_count": 7,
+  "remixes_count": 0,
+  "likes_count": 22,
+  "dislikes_count": 0,
+  "raw_video_id": 13232334,
+  "uploaded_by_ios_app": false,
+  "uploaded_by_android_app": false,
+  "media_blocks": {
+    "uploaded_raw_videos": [],
+    "external_raw_videos": [
+      {
+        "id": 30531314,
+        "title": "MUST SEE | POPPIN JOHN | MIME SKILLS",
+        "url": "https://www.youtube.com/watch?v=0-IGEWEZHn8",
+        "image": "https://coubsecure-s.akamaihd.net/get/b203/p/media_block/cw_image/0c7fb8738dc/65ffec8d24c7c65632f16/video_1550400234_1q9bdlr_1550400207_1gxyy99_att-url-download.jpg",
+        "image_retina": "https://coubsecure-s.akamaihd.net/get/b203/p/media_block/cw_image/0c7fb8738dc/65ffec8d24c7c65632f16/video_retina_1550400234_1q9bdlr_1550400207_1gxyy99_att-url-download.jpg",
+        "meta": {
+          "service": "Youtube",
+          "duration": "168.96"
+        },
+        "duration": 168.96,
+        "raw_video_id": 13232334,
+        "has_embed": true
+      }
+    ],
+    "remixed_from_coubs": [],
+    "external_video": {
+      "id": 30531314,
+      "title": "MUST SEE | POPPIN JOHN | MIME SKILLS",
+      "url": "https://www.youtube.com/watch?v=0-IGEWEZHn8",
+      "image": "https://coubsecure-s.akamaihd.net/get/b203/p/media_block/cw_image/0c7fb8738dc/65ffec8d24c7c65632f16/video_1550400234_1q9bdlr_1550400207_1gxyy99_att-url-download.jpg",
+      "image_retina": "https://coubsecure-s.akamaihd.net/get/b203/p/media_block/cw_image/0c7fb8738dc/65ffec8d24c7c65632f16/video_retina_1550400234_1q9bdlr_1550400207_1gxyy99_att-url-download.jpg",
+      "meta": {
+        "service": "Youtube",
+        "duration": "168.96"
+      },
+      "duration": 168.96,
+      "raw_video_id": 13232334,
+      "has_embed": true
+    }
+  },
+  "raw_video_thumbnail_url": "/missing/missing.png",
+  "raw_video_title": "MUST SEE | POPPIN JOHN | MIME SKILLS",
+  "video_block_banned": false,
+  "duration": 19.04,
+  "promo_winner": false,
+  "promo_winner_recoubers": null,
+  "editorial_info": {},
+  "promo_hint": null,
+  "beeline_best_2014": null,
+  "from_web_editor": true,
+  "normalize_sound": true,
+  "normalize_change_allowed": true,
+  "best2015_addable": false,
+  "ahmad_promo": null,
+  "promo_data": null,
+  "audio_copyright_claim": null,
+  "ads_disabled": false,
+  "is_safe_for_ads": true
+}
