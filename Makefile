@@ -51,3 +51,7 @@ lint: lint-isort lint-flake8 lint-black lint-mypy
 
 .PHONY: check
 check: lint test
+
+.PHONY: docs
+docs:
+	@cd docs/ && poetry run make html && cd -

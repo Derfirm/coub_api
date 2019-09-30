@@ -1,0 +1,290 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Documentation for Coub modules &#8212; Coub Api 0.2 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Welcome to Coub Api’s documentation!" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="documentation-for-coub-modules">
+<h1>Documentation for Coub modules<a class="headerlink" href="#documentation-for-coub-modules" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-coub_api.modules.coubs">
+<span id="coubs"></span><h2>COUBS<a class="headerlink" href="#module-coub_api.modules.coubs" title="Permalink to this headline">¶</a></h2>
+<span class="target" id="module-coubs"></span><p>This module provide and API, using it you can obtain coub’s metadata, edit its properties or delete the coub.</p>
+<p>Also this module provide api for creating COUB.</p>
+<dl class="class">
+<dt id="coub_api.modules.coubs.Coubs">
+<em class="property">class </em><code class="sig-prename descclassname">coub_api.modules.coubs.</code><code class="sig-name descname">Coubs</code><span class="sig-paren">(</span><em class="sig-param">token: Optional[str] = None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/coub_api/modules/coubs.html#Coubs"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#coub_api.modules.coubs.Coubs" title="Permalink to this definition">¶</a></dt>
+<dd><p>Class for
+:mod: <cite>get_coub</cite>,  :mod: <cite>edit_coub</cite>, :mod: <cite>delete_coub</cite>, :mod: <cite>init_upload</cite>,
+:mod: <cite>upload_video</cite>, :mod: <cite>upload_audio</cite>, :mod: <cite>finalize_upload</cite> interface</p>
+<dl class="method">
+<dt id="coub_api.modules.coubs.Coubs.get_coub">
+<code class="sig-name descname">get_coub</code><span class="sig-paren">(</span><em class="sig-param">coub_id: str</em><span class="sig-paren">)</span> &#x2192; coub_api.schemas.coub.BigCoub<a class="reference internal" href="_modules/coub_api/modules/coubs.html#Coubs.get_coub"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#coub_api.modules.coubs.Coubs.get_coub" title="Permalink to this definition">¶</a></dt>
+<dd><p>Getting coub data</p>
+<dl class="simple">
+<dt>Resource endpoint:</dt><dd><p>GET /api/v2/coubs/:id</p>
+</dd>
+</dl>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">api</span> <span class="o">=</span> <span class="n">CoubApi</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">coub</span> <span class="o">=</span> <span class="n">api</span><span class="o">.</span><span class="n">coubs</span><span class="o">.</span><span class="n">get_coub</span><span class="p">(</span><span class="s2">&quot;1jf5v1&quot;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">coub</span><span class="o">.</span><span class="n">id</span><span class="p">)</span>
+<span class="go">&quot;1jf5v1&quot;</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>coub_id</strong> – int the identifier of the required coub</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>BigCoub pydantic schema</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="coub_api.modules.coubs.Coubs.edit_coub">
+<code class="sig-name descname">edit_coub</code><span class="sig-paren">(</span><em class="sig-param">coub_permalink: str, channel_id: int, *, title: str, tags: List[str], visibility_type: coub_api.schemas.constants.VisibilityType = &lt;VisibilityType.PRIVATE: 'private'&gt;</em><span class="sig-paren">)</span> &#x2192; coub_api.schemas.coub.BigCoub<a class="reference internal" href="_modules/coub_api/modules/coubs.html#Coubs.edit_coub"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#coub_api.modules.coubs.Coubs.edit_coub" title="Permalink to this definition">¶</a></dt>
+<dd><p>Editing coub data.</p>
+<dl class="simple">
+<dt>Resource endpoint:</dt><dd><p>POST /api/v2/coubs/:id/update_info</p>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>coub_permalink</strong> – the identifier of the required coub</p></li>
+<li><p><strong>channel_id</strong> – new id of the channel</p></li>
+<li><p><strong>title</strong> – new title of the coub</p></li>
+<li><p><strong>tags</strong> – new tags assigned to the coub</p></li>
+<li><p><strong>visibility_type</strong> – enum of the :mod: VisibilityType</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>BigCoub pydantic schema</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="coub_api.modules.coubs.Coubs.delete_coub">
+<code class="sig-name descname">delete_coub</code><span class="sig-paren">(</span><em class="sig-param">coub_permalink: str</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/coub_api/modules/coubs.html#Coubs.delete_coub"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#coub_api.modules.coubs.Coubs.delete_coub" title="Permalink to this definition">¶</a></dt>
+<dd><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Not working now, help required.</p>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>coub_permalink</strong> – the identifier of the required coub</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="coub_api.modules.coubs.Coubs.init_upload">
+<code class="sig-name descname">init_upload</code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; Dict[str, str]<a class="reference internal" href="_modules/coub_api/modules/coubs.html#Coubs.init_upload"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#coub_api.modules.coubs.Coubs.init_upload" title="Permalink to this definition">¶</a></dt>
+<dd><p>A coub consists of two parts: the video sample and the audio track.</p>
+<dl class="simple">
+<dt>To create a coub via API you need to:</dt><dd><ol class="arabic simple">
+<li><p>Initialize the upload and get the id for the upload;</p></li>
+<li><p>Add a video for the coub;</p></li>
+<li><p>Add an audio track for the coub;</p></li>
+<li><p>Finalize the coub.</p></li>
+</ol>
+</dd>
+</dl>
+<p>Find more at <a class="reference external" href="https://coub.com/dev/docs/Coub+API%2FCreating+coub">https://coub.com/dev/docs/Coub+API%2FCreating+coub</a></p>
+<dl class="simple">
+<dt>Resource endpoint:</dt><dd><p>POST /api/v2/coubs/init_upload</p>
+</dd>
+</dl>
+<p>Small sample for start uploading.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">coub_api</span> <span class="k">import</span> <span class="n">CoubApi</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">os</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">access_token</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;coub_access_token&quot;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">api</span> <span class="o">=</span> <span class="n">CoubApi</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">api</span><span class="o">.</span><span class="n">authenticate</span><span class="p">(</span><span class="n">access_token</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">coub</span> <span class="o">=</span> <span class="n">api</span><span class="o">.</span><span class="n">coubs</span><span class="o">.</span><span class="n">get_coub</span><span class="p">(</span><span class="s2">&quot;1jf5v1&quot;</span><span class="p">)</span>
+<span class="go">{&quot;permalink&quot;:&quot;1jik0b&quot;,&quot;id&quot;:93927327}</span>
+</pre></div>
+</div>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>permalink and id for new Coub</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="method">
+<dt id="coub_api.modules.coubs.Coubs.upload_video">
+<code class="sig-name descname">upload_video</code><span class="sig-paren">(</span><em class="sig-param">coub_id: int</em>, <em class="sig-param">video_path: str</em>, <em class="sig-param">content_type: str = 'video/mp4'</em><span class="sig-paren">)</span> &#x2192; Dict[str, str]<a class="reference internal" href="_modules/coub_api/modules/coubs.html#Coubs.upload_video"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#coub_api.modules.coubs.Coubs.upload_video" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add a video for the coub.</p>
+<dl class="simple">
+<dt>Resource endpoint:</dt><dd><p>POST /api/v2/coubs/:id/upload_video</p>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>coub_id</strong> – id from :mod: init_upload step</p></li>
+<li><p><strong>video_path</strong> – path to video on your filesystem (PosixPath(‘/home/devel/video.mp4’))</p></li>
+<li><p><strong>content_type</strong> – choosen content_type for video file. Find more types at <a class="reference external" href="https://gist.github.com/Derfirm/5b11f77d64816153024e979141b69800">https://gist.github.com/Derfirm/5b11f77d64816153024e979141b69800</a></p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>{“status”: “ok”} if if the request successed; {“message”: “error”} otherwise</p>
+</dd>
+</dl>
+<p>Upload video-file from filesystem.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">api</span><span class="o">.</span><span class="n">coubs</span><span class="o">.</span><span class="n">upload_video</span><span class="p">(</span><span class="mi">93927327</span><span class="p">,</span> <span class="s2">&quot;video.mp4&quot;</span><span class="p">)</span>
+<span class="go">{&quot;status&quot;: &quot;ok&quot;}</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="coub_api.modules.coubs.Coubs.upload_audio">
+<code class="sig-name descname">upload_audio</code><span class="sig-paren">(</span><em class="sig-param">coub_id: int</em>, <em class="sig-param">audio_path: str</em>, <em class="sig-param">content_type: str = 'audio/mpeg'</em><span class="sig-paren">)</span> &#x2192; Dict[str, str]<a class="reference internal" href="_modules/coub_api/modules/coubs.html#Coubs.upload_audio"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#coub_api.modules.coubs.Coubs.upload_audio" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add an audio for the coub.</p>
+<dl class="simple">
+<dt>Resource endpoint:</dt><dd><p>POST /api/v2/coubs/:id/upload_video</p>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>coub_id</strong> – id from :mod: init_upload step</p></li>
+<li><p><strong>audio_path</strong> – path to video on your filesystem (PosixPath(‘/home/devel/audio.mp4’))</p></li>
+<li><p><strong>content_type</strong> – choosen content_type for audio file. Find more types at <a class="reference external" href="https://gist.github.com/Derfirm/5b11f77d64816153024e979141b69800">https://gist.github.com/Derfirm/5b11f77d64816153024e979141b69800</a></p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>{“status”: “ok”} if if the request successed; {“message”: “error”} otherwise</p>
+</dd>
+</dl>
+<p>Upload audio-file from filesystem.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">api</span><span class="o">.</span><span class="n">coubs</span><span class="o">.</span><span class="n">upload_video</span><span class="p">(</span><span class="mi">93927327</span><span class="p">,</span> <span class="s2">&quot;audio.mp3&quot;</span><span class="p">)</span>
+<span class="go">{&quot;status&quot;: &quot;ok&quot;}</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="coub_api.modules.coubs.Coubs.finalize_upload">
+<code class="sig-name descname">finalize_upload</code><span class="sig-paren">(</span><em class="sig-param">coub_id: int, *, title: str, tags: List[str], visibility_type: coub_api.schemas.constants.VisibilityType = &lt;VisibilityType.PRIVATE: 'private'&gt;, sound_enabled: bool = True</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/coub_api/modules/coubs.html#Coubs.finalize_upload"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#coub_api.modules.coubs.Coubs.finalize_upload" title="Permalink to this definition">¶</a></dt>
+<dd><p>Finalizing upload.</p>
+<p>Calling this method when all the editing is finished, and we can generate the final version for this coub.</p>
+<dl class="simple">
+<dt>Resource endpoint:</dt><dd><p>POST /api/v2/coubs/:id/finalize_upload</p>
+</dd>
+</dl>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>coub_id</strong> – id from :mod: init_upload step</p></li>
+<li><p><strong>title</strong> – the title of the coub;</p></li>
+<li><p><strong>tags</strong> – tags assigned to the coub</p></li>
+<li><p><strong>visibility_type</strong> – enum of the :mod: VisibilityType</p></li>
+<li><p><strong>sound_enabled</strong> – enables or disables sound for the coub</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>{“status”: “ok”} if if the request successed; {“message”: “error”} otherwise</p>
+</dd>
+</dl>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">api</span><span class="o">.</span><span class="n">coubs</span><span class="o">.</span><span class="n">finalize_upload</span><span class="p">(</span><span class="mi">93927327</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;Awesome CAT&quot;</span><span class="p">,</span> <span class="n">tags</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;cat&quot;</span><span class="p">,</span> <span class="s2">&quot;animal&quot;</span><span class="p">])</span>
+<span class="go">{&quot;status&quot;: &quot;ok&quot;}</span>
+</pre></div>
+</div>
+<p>If all is well the finalization process starts. It usually takes 30–180 seconds.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-coub_api.modules.timelines">
+<span id="timelines"></span><h2>TIMELINES<a class="headerlink" href="#module-coub_api.modules.timelines" title="Permalink to this headline">¶</a></h2>
+<span class="target" id="module-timelines"></span><p>TIMELINES
+This module provide and API, using it You can get any user or channel or community feed.</p>
+<dl class="class">
+<dt id="coub_api.modules.timelines.Timeline">
+<em class="property">class </em><code class="sig-prename descclassname">coub_api.modules.timelines.</code><code class="sig-name descname">Timeline</code><span class="sig-paren">(</span><em class="sig-param">token: Optional[str] = None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/coub_api/modules/timelines.html#Timeline"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#coub_api.modules.timelines.Timeline" title="Permalink to this definition">¶</a></dt>
+<dd><p>Class for <cite>hot</cite> interface</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Welcome to Coub Api’s documentation!</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2019, me.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.2.0</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/code.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

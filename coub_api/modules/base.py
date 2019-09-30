@@ -50,6 +50,13 @@ class TmpBaseConnector:
 
     @staticmethod
     def request(method: str, url: str, **kwargs) -> connector_return_type:
+        """
+        
+        :param method:
+        :param url:
+        :param kwargs:
+        :return: connector_return_type
+        """
         response = requests.request(method, url, **kwargs)
         response.raise_for_status()
         return response

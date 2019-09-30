@@ -1,3 +1,9 @@
+""".. module:: timelines
+
+    TIMELINES
+    This module provide and API, using it You can get any user or channel or community feed.
+
+"""
 from typing import Union, Optional
 
 from coub_api.modules.base import TmpBaseConnector, connector_return_type
@@ -12,6 +18,10 @@ __all__ = ("Timeline",)
 
 
 class Timeline(TmpBaseConnector):
+    """
+    Class for `hot` interface
+    """
+
     __slots__ = ()
 
     def _get_hot_response(

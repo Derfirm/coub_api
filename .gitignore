@@ -16,3 +16,7 @@ dist/
 *.jpg
 *.mp3
 *.mp4
+
+_build
+_static
+_templates

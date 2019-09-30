@@ -88,6 +88,10 @@ mypy = "*"
 deepdiff = "^4.0"
 pytest-mock = "^1.11"
 
+sphinx = "^2.2"
+sphinx-autodoc-typehints = "^1.8"
+doc8 = "^0.8.0"
+
 [tool.poetry.scripts]
 coub-oauth2-server = "console.dummy_oauth2_server:main"
 
