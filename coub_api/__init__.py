@@ -1,4 +1,4 @@
-__version__ = "0.2.0-alpha.0"
+__version__ = "0.2.0"
 
 from coub_api.api import CoubApi
 from coub_api.schemas.constants import (
