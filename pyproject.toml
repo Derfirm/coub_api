@@ -86,7 +86,7 @@ requests-mock = "*"
 yarl = "*"
 mypy = "*"
 deepdiff = "^4.0"
-pytest-mock = "^1.11"
+pytest-mock = "^1.12"
 
 [tool.poetry.scripts]
 coub-oauth2-server = "console.dummy_oauth2_server:main"
