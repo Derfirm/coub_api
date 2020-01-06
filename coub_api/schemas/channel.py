@@ -1,13 +1,13 @@
 from typing import List, Optional
 from datetime import datetime
 
-from pydantic import UrlStr, BaseModel
+from pydantic import AnyUrl, BaseModel
 
 __all__ = ("ChannelBig", "ChannelSmall", "ChannelResponse", "AvatarVersions")
 
 
 class AvatarVersions(BaseModel):
-    template: UrlStr
+    template: AnyUrl
     versions: Optional[List[str]]
 
 
@@ -75,5 +75,5 @@ class ChannelBig(BaseModel):
 
 
 class ChannelResponse(BaseModel):
-    redirect_url: UrlStr
+    redirect_url: AnyUrl
     channel: ChannelBig

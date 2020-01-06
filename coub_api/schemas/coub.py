@@ -1,7 +1,7 @@
 from typing import Dict, List, Union, Optional
 from datetime import date, datetime
 
-from pydantic import UrlStr, BaseModel
+from pydantic import AnyUrl, BaseModel
 
 from .constants import Category, BigCoubType, ServiceType, SmallCoubType, VisibilityType
 
@@ -25,7 +25,7 @@ class CoubTags(BaseModel):
 
 
 class Params(BaseModel):
-    url: UrlStr
+    url: AnyUrl
     size: Optional[int]
 
 
@@ -46,7 +46,7 @@ class CoubFileVersion(BaseModel):
 
     class Mobile(BaseModel):
         video: str
-        audio: Optional[List[UrlStr]]
+        audio: Optional[List[AnyUrl]]
 
     html5: Html5
     mobile: Mobile
@@ -59,29 +59,29 @@ class Communities(BaseModel):
 
 class CoubAudioVersions(BaseModel):
     class Chunks(BaseModel):
-        template: UrlStr
+        template: AnyUrl
         versions: List[str]
         chunks: List[int]
 
-    template: UrlStr
+    template: AnyUrl
     versions: List[str]
     chunks: Chunks
 
 
 class CoubImageVersion(BaseModel):
-    template: UrlStr
+    template: AnyUrl
     versions: List[str]
 
 
 class CoubFirstFrameVersion(BaseModel):
-    template: UrlStr
+    template: AnyUrl
     versions: List[str]
 
 
 class CoubExternalDownload(BaseModel):
     type: ServiceType
     service_name: str
-    url: UrlStr
+    url: AnyUrl
     has_embed: bool
 
 
@@ -96,19 +96,19 @@ class CoubMediaBlocks(BaseModel):
 
         id: int
         title: str
-        url: Optional[UrlStr]
-        image: Optional[UrlStr]
-        image_retina: Optional[UrlStr]
+        url: Optional[AnyUrl]
+        image: Optional[AnyUrl]
+        image_retina: Optional[AnyUrl]
         meta: Meta
         duration: Optional[float]
-        amazon_url: Optional[UrlStr]
-        google_play_url: Optional[UrlStr]
-        bandcamp_url: Optional[UrlStr]
-        soundcloud_url: Optional[UrlStr]
+        amazon_url: Optional[AnyUrl]
+        google_play_url: Optional[AnyUrl]
+        bandcamp_url: Optional[AnyUrl]
+        soundcloud_url: Optional[AnyUrl]
         track_name: Optional[str]
         track_artist: Optional[str]
         track_album: Optional[str]
-        itunes_url: Optional[UrlStr]
+        itunes_url: Optional[AnyUrl]
 
     class ExternalVideo(BaseModel):
         class Meta(BaseModel):
@@ -117,9 +117,9 @@ class CoubMediaBlocks(BaseModel):
 
         id: int
         title: Optional[str]
-        url: Optional[UrlStr]
-        image: Optional[UrlStr]
-        image_retina: Optional[UrlStr]
+        url: Optional[AnyUrl]
+        image: Optional[AnyUrl]
+        image_retina: Optional[AnyUrl]
         meta: Meta
         duration: float
         raw_video_id: Optional[int]
@@ -131,9 +131,9 @@ class CoubMediaBlocks(BaseModel):
 
         id: int
         title: str
-        url: Optional[UrlStr]
-        image: Optional[UrlStr]
-        image_retina: Optional[UrlStr]
+        url: Optional[AnyUrl]
+        image: Optional[AnyUrl]
+        image_retina: Optional[AnyUrl]
         meta: Meta
         duration: Optional[float]
         coub_channel_title: Optional[str]
@@ -152,7 +152,7 @@ class SubCoub(BaseModel):
     from .channel import ChannelSmall
 
     id: int
-    audio_file_url: Optional[UrlStr]
+    audio_file_url: Optional[AnyUrl]
     type: BigCoubType
     permalink: str
     title: str
@@ -203,7 +203,7 @@ class BigCoub(BaseModel):
     permalink: str
     abuses: Optional[bool]
     visibility_type: VisibilityType
-    audio_file_url: Optional[UrlStr]
+    audio_file_url: Optional[AnyUrl]
     channel_id: int
     created_at: datetime
     updated_at: datetime
@@ -262,7 +262,7 @@ class SmallCoub(BaseModel):
     from .channel import ChannelSmall
 
     class ImageVersions(BaseModel):
-        template: UrlStr
+        template: AnyUrl
         versions: List[str]
 
     id: int
