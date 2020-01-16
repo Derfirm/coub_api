@@ -1,6 +1,3 @@
-if: >  # Forbid running non-PR pushes from pyup bot
-  not (type != pull_request AND branch =~ ^pyup\-scheduled\-update\-)
-
 dist: xenial
 sudo: required
 
@@ -8,6 +5,7 @@ language: python
 python:
   - 3.6
   - 3.7
+  - 3.8
 before_install:
   - pip install codecov
   - pip install poetry

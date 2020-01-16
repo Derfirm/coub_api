@@ -30,6 +30,12 @@ Key Features
 
 .. _pydantic: https://pydantic-docs.helpmanual.io/
 
+Installing
+==========
+.. code-block:: shell
+
+    $ pip install coub-api
+
 Getting started
 ===============
 Initiate Api client
@@ -40,7 +46,7 @@ ___________________
     from coub_api import CoubApi
 
     api = CoubApi()
-    os.environ.get("coub_access_token")
+    access_token = os.environ.get("coub_access_token")
     api.authenticate(access_token)  # required for some authenticated requests
 
 
@@ -107,3 +113,8 @@ ___________
 - Copy access token and start use it!
 
 .. _Own: http://coub.com/dev/applications
+
+Contributing
+============
+
+To work on the `coub-api` codebase, you'll want to clone the project locally and install the required dependencies via [poetry](https://poetry.eustace.io):
