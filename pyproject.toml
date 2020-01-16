@@ -44,7 +44,7 @@ ignore_missing_imports = true
 
 [tool.poetry]
 name = "coub_api"
-version = "0.3.0"
+version = "0.3.1-alpha.0"
 description = "Api wrapper for coub.com"
 authors = ["Andrew Grinevich <andrew.grinevich@gmail.com>"]
 readme = "README.rst"
