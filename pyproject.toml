@@ -85,7 +85,7 @@ isort = "*"
 requests-mock = "*"
 yarl = "*"
 mypy = "*"
-deepdiff = "^4.2"
+deepdiff = "^4.3"
 pytest-mock = "^2.0"
 
 [tool.poetry.scripts]
