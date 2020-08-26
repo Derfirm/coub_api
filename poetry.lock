@@ -104,10 +104,10 @@ description = "Deep Difference and Search of any Python object/data."
 name = "deepdiff"
 optional = false
 python-versions = ">=3.5"
-version = "4.3.2"
+version = "5.0.2"
 
 [package.dependencies]
-ordered-set = ">=3.1.1"
+ordered-set = ">=4.0.1"
 
 [package.extras]
 murmur = ["mmh3"]
@@ -230,11 +230,11 @@ version = "0.4.3"
 
 [[package]]
 category = "dev"
-description = "A MutableSet that remembers its order, so that every entry has an index."
+description = "A set that remembers its order, and allows looking up its items by their index in that order."
 name = "ordered-set"
 optional = false
-python-versions = ">=2.7"
-version = "3.1.1"
+python-versions = ">=3.5"
+version = "4.0.2"
 
 [[package]]
 category = "dev"
@@ -509,7 +509,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["pathlib2", "contextlib2", "unittest2"]
 
 [metadata]
-content-hash = "10fc654b3336c7940ff43c838fd6bf9c5b4ebd4c99e960928fe25ba7ad00a471"
+content-hash = "351230ec4e3f8e9f11677d2312919b572cca0d8aac52fa9487f042ec4126fce2"
 python-versions = "^3.6"
 
 [metadata.files]
@@ -584,8 +584,8 @@ dataclasses = [
     {file = "dataclasses-0.6.tar.gz", hash = "sha256:6988bd2b895eef432d562370bb707d540f32f7360ab13da45340101bc2307d84"},
 ]
 deepdiff = [
-    {file = "deepdiff-4.3.2-py3-none-any.whl", hash = "sha256:59fc1e3e7a28dd0147b0f2b00e3e27181f0f0ef4286b251d5f214a5bcd9a9bc4"},
-    {file = "deepdiff-4.3.2.tar.gz", hash = "sha256:91360be1d9d93b1d9c13ae9c5048fa83d9cff17a88eb30afaa0d7ff2d0fee17d"},
+    {file = "deepdiff-5.0.2-py3-none-any.whl", hash = "sha256:273b18d32bb9b956548290b2e3ddf79c515def2dd5738965f4348ae813e710c5"},
+    {file = "deepdiff-5.0.2.tar.gz", hash = "sha256:e2b74af4da0ef9cd338bb6e8c97242c1ec9d81fcb28298d7bb24acdc19ea79d7"},
 ]
 entrypoints = [
     {file = "entrypoints-0.3-py2.py3-none-any.whl", hash = "sha256:589f874b313739ad35be6e0cd7efde2a4e9b6fea91edcc34e58ecbb8dbe56d19"},
@@ -671,7 +671,7 @@ mypy-extensions = [
     {file = "mypy_extensions-0.4.3.tar.gz", hash = "sha256:2d82818f5bb3e369420cb3c4060a7970edba416647068eb4c5343488a6c604a8"},
 ]
 ordered-set = [
-    {file = "ordered-set-3.1.1.tar.gz", hash = "sha256:a7bfa858748c73b096e43db14eb23e2bc714a503f990c89fac8fab9b0ee79724"},
+    {file = "ordered-set-4.0.2.tar.gz", hash = "sha256:ba93b2df055bca202116ec44b9bead3df33ea63a7d5827ff8e16738b97f33a95"},
 ]
 packaging = [
     {file = "packaging-19.2-py2.py3-none-any.whl", hash = "sha256:d9551545c6d761f3def1677baf08ab2a3ca17c56879e70fecba2fc4dde4ed108"},
