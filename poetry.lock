@@ -98,7 +98,7 @@ python-versions = "*"
 
 [[package]]
 name = "deepdiff"
-version = "5.2.1"
+version = "5.2.3"
 description = "Deep Difference and Search of any Python object/data."
 category = "dev"
 optional = false
@@ -569,8 +569,8 @@ dataclasses = [
     {file = "dataclasses-0.6.tar.gz", hash = "sha256:6988bd2b895eef432d562370bb707d540f32f7360ab13da45340101bc2307d84"},
 ]
 deepdiff = [
-    {file = "deepdiff-5.2.1-py3-none-any.whl", hash = "sha256:5e2b90ebe9d371af493a893306546f69dc117e7a36596b97f8fe56869dd0c35d"},
-    {file = "deepdiff-5.2.1.tar.gz", hash = "sha256:2e368943dc257f6fa93d9ce4537dbcd4fea65098208a0f49f675cf40132c1a89"},
+    {file = "deepdiff-5.2.3-py3-none-any.whl", hash = "sha256:3d3da4bd7e01fb5202088658ed26427104c748dda56a0ecfac9ce9a1d2d00844"},
+    {file = "deepdiff-5.2.3.tar.gz", hash = "sha256:ae2cb98353309f93fbfdda4d77adb08fb303314d836bb6eac3d02ed71a10b40e"},
 ]
 entrypoints = [
     {file = "entrypoints-0.3-py2.py3-none-any.whl", hash = "sha256:589f874b313739ad35be6e0cd7efde2a4e9b6fea91edcc34e58ecbb8dbe56d19"},
