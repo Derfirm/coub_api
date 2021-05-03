@@ -98,7 +98,7 @@ python-versions = "*"
 
 [[package]]
 name = "deepdiff"
-version = "5.2.1"
+version = "5.5.0"
 description = "Deep Difference and Search of any Python object/data."
 category = "dev"
 optional = false
@@ -108,7 +108,7 @@ python-versions = ">=3.6"
 ordered-set = "4.0.2"
 
 [package.extras]
-cli = ["click (==7.1.2)", "pyyaml (==5.3.1)", "toml (==0.10.2)", "clevercsv (==0.6.6)"]
+cli = ["click (==7.1.2)", "pyyaml (==5.4)", "toml (==0.10.2)", "clevercsv (==0.6.7)"]
 
 [[package]]
 name = "entrypoints"
@@ -495,7 +495,7 @@ testing = ["pathlib2", "contextlib2", "unittest2"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.6"
-content-hash = "1960aba6bab42d2165c1b3705eb6f1a39f0dcc22a0699f92991fe35f185a0705"
+content-hash = "585b1ae977f6b017eddb90c4adad4aae278af8b85cdff6e17cc1e14c6a84738f"
 
 [metadata.files]
 appdirs = [
@@ -569,8 +569,8 @@ dataclasses = [
     {file = "dataclasses-0.6.tar.gz", hash = "sha256:6988bd2b895eef432d562370bb707d540f32f7360ab13da45340101bc2307d84"},
 ]
 deepdiff = [
-    {file = "deepdiff-5.2.1-py3-none-any.whl", hash = "sha256:5e2b90ebe9d371af493a893306546f69dc117e7a36596b97f8fe56869dd0c35d"},
-    {file = "deepdiff-5.2.1.tar.gz", hash = "sha256:2e368943dc257f6fa93d9ce4537dbcd4fea65098208a0f49f675cf40132c1a89"},
+    {file = "deepdiff-5.5.0-py3-none-any.whl", hash = "sha256:e054fed9dfe0d83d622921cbb3a3d0b3a6dd76acd2b6955433a0a2d35147774a"},
+    {file = "deepdiff-5.5.0.tar.gz", hash = "sha256:dd79b81c2d84bfa33aa9d94d456b037b68daff6bb87b80dfaa1eca04da68b349"},
 ]
 entrypoints = [
     {file = "entrypoints-0.3-py2.py3-none-any.whl", hash = "sha256:589f874b313739ad35be6e0cd7efde2a4e9b6fea91edcc34e58ecbb8dbe56d19"},
