@@ -354,11 +354,11 @@ testing = ["fields", "hunter", "process-tests (==2.0.2)", "six", "virtualenv"]
 
 [[package]]
 name = "pytest-mock"
-version = "3.3.0"
+version = "3.6.1"
 description = "Thin-wrapper around the mock package for easier use with pytest"
 category = "dev"
 optional = false
-python-versions = ">=3.5"
+python-versions = ">=3.6"
 
 [package.dependencies]
 pytest = ">=5.0"
@@ -495,7 +495,7 @@ testing = ["pathlib2", "contextlib2", "unittest2"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.6"
-content-hash = "1960aba6bab42d2165c1b3705eb6f1a39f0dcc22a0699f92991fe35f185a0705"
+content-hash = "4cda43c807041f81b589fc0ca86f981b866ad954d74cdc6b3d4152b1c6fb9647"
 
 [metadata.files]
 appdirs = [
@@ -713,8 +713,8 @@ pytest-cov = [
     {file = "pytest_cov-2.8.1-py2.py3-none-any.whl", hash = "sha256:cdbdef4f870408ebdbfeb44e63e07eb18bb4619fae852f6e760645fa36172626"},
 ]
 pytest-mock = [
-    {file = "pytest-mock-3.3.0.tar.gz", hash = "sha256:1d146a6e798b9e6322825e207b4e0544635e679b69253e6e01a221f45945d2f6"},
-    {file = "pytest_mock-3.3.0-py3-none-any.whl", hash = "sha256:0061f9e8f14b77d0f3915a00f18b1b71f07da3c8bd66994e42ee91537681a76e"},
+    {file = "pytest-mock-3.6.1.tar.gz", hash = "sha256:40217a058c52a63f1042f0784f62009e976ba824c418cced42e88d5f40ab0e62"},
+    {file = "pytest_mock-3.6.1-py3-none-any.whl", hash = "sha256:30c2f2cc9759e76eee674b81ea28c9f0b94f8f0445a1b87762cadf774f0df7e3"},
 ]
 regex = [
     {file = "regex-2019.11.1-cp27-none-win32.whl", hash = "sha256:604dc563a02a74d70ae1f55208ddc9bfb6d9f470f6d1a5054c4bd5ae58744ab1"},
